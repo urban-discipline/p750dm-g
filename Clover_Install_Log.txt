@@ -1,0 +1,39 @@
+
+Clover EFI installer log - Sun Nov  8 18:24:19 EST 2015
+Installer version: v2.3k r3320 EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *42.9 GB    disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            42.1 GB    disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1: 9198EFFC-31C0-11DB-8F78-000C2911D1B8               118.5 MB   disk1s1
+   2: 9198EFFC-31C0-11DB-8F78-000C2911D1B8               485.0 GB   disk1s2
+   3: 9198EFFC-31C0-11DB-8F78-000C2911D1B8               32.0 GB    disk1s3
+   4: 9198EFFC-31C0-11DB-8F78-000C2911D1B8               16.8 MB    disk1s4
+   5: 9198EFFC-31C0-11DB-8F78-000C2911D1B8               420.2 GB   disk1s5
+   6:                  Apple_HFS untitled                62.9 GB    disk1s6
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *32.2 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Install OS X El Capitan 16.0 GB    disk2s2
+   3:                  Apple_HFS Untitled                15.8 GB    disk2s3
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install OS X El Capitan
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install OS X El Capitan
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

@@ -1,0 +1,165 @@
+28:031  3:389  Found BIOS RSDP at F0010
+28:077  0:045  Printing ACPI tables from RSDP F0010 ...
+28:123  0:045   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+28:969  0:846    (Xsdt: 379350A0, Rsdt: 37935028)
+29:050  0:080    379350A0: 'XSDT', 'A M I ', Rev: 1, Len: 188
+29:212  0:162    37935028: 'RSDT', 'A M I ', Rev: 1, Len: 112
+29:347  0:135    Tables in Xsdt: 19
+29:402  0:054    0. 37950130: 'FACP', 'A M I ', Rev: 5, Len: 268
+29:555  0:152        (Dsdt: 379351F0, Facs: 37B9CF80, XDsdt: 379351F0, XFacs: 0)
+29:690  0:135        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+29:827  0:137        37B9CF80: 'FACS', Ver: 2, Len: 64
+29:918  0:090    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+30:097  0:179    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+30:313  0:216    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+30:414  0:100    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+30:514  0:100    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+31:268  0:754    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+31:402  0:134    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+31:544  0:141    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+31:685  0:141    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+31:847  0:162    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+31:982  0:134    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+32:117  0:134    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+32:259  0:142    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+32:402  0:142    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+32:610  0:208    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+32:714  0:103    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+32:814  0:100    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+32:932  0:117    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+33:044  0:112    Tables in Rsdt: 19
+33:124  0:080    0. 37935168: 'FACP', 'A M I ', Rev: 2, Len: 132
+33:225  0:100        (Dsdt: 379351F0, Facs: 37B9CF40)
+33:291  0:066        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+33:393  0:101        37B9CF40: 'FACS', Ver: 0, Len: 64
+33:471  0:078    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+33:571  0:100    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+33:730  0:158    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+33:830  0:100    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+33:942  0:111    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+34:062  0:120    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+34:172  0:110    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+34:286  0:113    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+34:397  0:111    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+34:497  0:100    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+34:615  0:117    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+34:732  0:116    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+34:832  0:100    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+34:932  0:100    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+35:684  0:751    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+35:810  0:126    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+35:939  0:128    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+36:068  0:128    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+36:229  0:161  Found UEFI Acpi 2.0 RSDP at 37935000
+36:272  0:043  Saving ACPI tables from RSDP 37935000 to EFI\CLOVER\ACPI\origin ...
+36:315  0:043   37935000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+36:630  0:314    (Xsdt: 379350A0, Rsdt: 37935028)
+36:675  0:045    379350A0: 'XSDT', 'A M I ', Rev: 1, Len: 188 -> XSDT.aml
+36:987  0:311    37935028: 'RSDT', 'A M I ', Rev: 1, Len: 112 -> RSDT.aml
+37:182  0:195    Tables in Xsdt: 19
+37:216  0:033    0. 37950130: 'FACP', 'A M I ', Rev: 5, Len: 268 -> FACP.aml
+37:437  0:221        (Dsdt: 379351F0, Facs: 37B9CF80, XDsdt: 379351F0, XFacs: 0)
+37:553  0:115        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400 -> DSDT.aml
+37:756  0:202        37B9CF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+37:925  0:169    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188 -> APIC.aml
+38:126  0:200    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68 -> FPDT.aml
+38:339  0:212    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156 -> FIDT.aml
+38:594  0:255    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+38:836  0:241    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+39:038  0:201    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0.aml
+39:954  0:916    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582 -> SSDT-1.aml
+40:231  0:276    8. 37953510: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+40:493  0:261    9. 37953548: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+40:835  0:342    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645 -> SSDT-2.aml
+41:199  0:363    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+41:494  0:294    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+ Found hidden SSDT 7 pcs
+41:594  0:100        * 36FB6818: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1962  53 53 44 54 AA 07 00 00 02 E6 50 6D 52 65 66 00 Internal length = 1962 -> SSDT-4x.aml
+43:113  1:518        * 36FB5618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-5x.aml
+44:782  1:669        * 36FB5C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-6x.aml
+45:752  0:970        * 374BCC18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-7x.aml
+47:272  1:519        * 35C5A818: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-8x.aml
+48:239  0:967        * 35C57018: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-9x.aml
+49:849  1:610        * 35C52D98: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-10x.aml
+50:861  1:011   -> SSDT-3.aml
+50:993  0:131    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112 -> DMAR.aml
+51:206  0:213    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594 -> UEFI.aml
+51:461  0:255    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92 -> UEFI.aml
+51:718  0:256    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+51:931  0:212    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+52:129  0:198    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+52:344  0:214    Tables in Rsdt: 19
+52:377  0:033    0. 37935168: 'FACP', 'A M I ', Rev: 2, Len: 132 -> RSDT-FACP.aml
+52:590  0:212        (Dsdt: 379351F0, Facs: 37B9CF40)
+52:657  0:066        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+52:776  0:119        37B9CF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+52:957  0:181    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+53:057  0:100    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+53:157  0:100    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+53:261  0:103    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+53:372  0:111    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+53:473  0:100    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+53:573  0:100    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+53:707  0:134    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+53:808  0:100    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+53:912  0:103    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+54:012  0:100    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+54:123  0:111    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+54:223  0:100    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+54:323  0:100    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+55:052  0:728    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+55:212  0:160    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+55:347  0:134    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+55:482  0:134    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+55:649  0:167  Found UEFI Acpi 1.0 RSDP at 37935000
+55:694  0:044  Printing ACPI tables from RSDP 37935000 ...
+55:738  0:044   37935000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+55:922  0:183    (Xsdt: 379350A0, Rsdt: 37935028)
+55:967  0:045    379350A0: 'XSDT', 'A M I ', Rev: 1, Len: 188
+56:138  0:171    37935028: 'RSDT', 'A M I ', Rev: 1, Len: 112
+56:274  0:136    Tables in Xsdt: 19
+56:320  0:045    0. 37950130: 'FACP', 'A M I ', Rev: 5, Len: 268
+56:484  0:163        (Dsdt: 379351F0, Facs: 37B9CF80, XDsdt: 379351F0, XFacs: 0)
+56:587  0:103        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+56:700  0:112        37B9CF80: 'FACS', Ver: 2, Len: 64
+56:766  0:066    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+56:867  0:100    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+57:001  0:134    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+57:121  0:120    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+57:231  0:110    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+57:348  0:117    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+57:479  0:130    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+57:589  0:110    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+57:689  0:100    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+57:806  0:116    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+57:924  0:117    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+58:040  0:116    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+58:151  0:111    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+58:251  0:099    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+58:352  0:100    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+58:452  0:100    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+58:556  0:103    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+58:667  0:111    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+58:785  0:117    Tables in Rsdt: 19
+58:818  0:033    0. 37935168: 'FACP', 'A M I ', Rev: 2, Len: 132
+58:935  0:116        (Dsdt: 379351F0, Facs: 37B9CF40)
+59:001  0:066        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+59:103  0:101        37B9CF40: 'FACS', Ver: 0, Len: 64
+59:170  0:066    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+59:286  0:115    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+59:386  0:100    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+59:504  0:117    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+59:604  0:100    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+59:720  0:116    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+59:824  0:103    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+59:924  0:100    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+60:035  0:111    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+60:156  0:120    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+60:276  0:120    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+60:414  0:138    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+60:555  0:140    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+60:655  0:100    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+60:755  0:100    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+60:866  0:111    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+60:966  0:099    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+61:090  0:123    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56

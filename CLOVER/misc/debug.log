@@ -1,0 +1,1678 @@
+0:100  0:100  MemLog inited, TSC freq: 4008566290
+0:100  0:000  MemLog was calibrated without ACPI PM Timer: ACPI I/O space is not enabled.
+0:100  0:000  
+0:100  0:000  Now is 8.11.2015,  23:37:20 (GMT+2047)
+0:100  0:000  Starting Clover rev 3320 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000) @35A5A598
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3320  running on P7xxDM(-G) 
+0:100  0:000  ... with board P7xxDM(-G) 
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+0:100  0:000  MSR 0xE2 before patch 1E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00031814
+0:100  0:000  MSR 0xCE              00080838_F1012800
+0:100  0:000  non-usable FLEX_RATIO = F0000
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x5E/0x3
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 40.0/8
+0:100  0:000  Turbo: 40/40/40/42
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 4000 MHz
+0:100  0:000  TSC: 4000 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 1617 class=030000
+0:100  0:000  Found NVidia model=Unknown
+0:100  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 A131 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 2822 class=010400
+0:100  0:000  PCI (00|00:1C.00) : 8086 A110 class=060400
+0:100  0:000  PCI (00|00:1C.06) : 8086 A116 class=060400
+0:100  0:000  PCI (00|3B:00.00) : 1969 E0A1 class=020000
+0:100  0:000  LAN 0, Vendor=1969, MMIO=DC500000
+0:100  0:000  PCI (00|00:1C.07) : 8086 A117 class=060400
+0:100  0:000  PCI (00|3C:00.00) : 10EC 5250 class=080501
+0:100  0:000  PCI (00|00:1D.00) : 8086 A11C class=060400
+0:100  0:000  PCI (00|3D:00.00) : 168C 003E class=028000
+0:100  0:000  PCI (00|00:1F.00) : 8086 A145 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:100  0:000  Clover load options size = 0 bytes
+0:148  0:048  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:149  0:000  EFI\CLOVER\config.plist loaded: Success
+0:153  0:004  Found theme directory: embedded
+0:153  0:000  Found theme directory: random
+0:173  0:019  Loading early settings
+0:173  0:000  timeout set to 5
+0:173  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:556  0:382  KextsToPatch: 1 requested
+0:630  0:073  KextsToPatch 0: AppleAPIC (Skylake AppleAPIC Patch (c) Pike R. Alpha) Kext bin patch, data len: 6
+0:913  0:283  Default theme: embedded
+0:986  0:072  LoadDrivers() start
+1:065  0:079  Loading FSInject-64.efi  status=Success
+1:965  0:899  Loading OsxAptioFixDrv-64.efi  status=Success
+2:193  0:228  Loading OsxFatBinaryDrv-64.efi  status=Success
+2:429  0:235  Loading HFSPlus.efi  status=Success
+2:684  0:255   - driver needs connecting
+2:768  0:084  1 drivers needs connecting ...
+2:879  0:110  PlatformDriverOverrideProtocol not found. Installing ... Success
+3:026  0:147  HFS+ driver loaded 
+3:101  0:074  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:147  1:046  LoadDrivers() end
+4:216  0:068  Dump SMC keys from NVRAM:
+4:306  0:090  SetScreenResolution: 1280x1024 - setting Mode 6
+4:457  0:151  Video mode change to mode #6: Success
+4:527  0:069  Console modes reported: 4, available modes:
+4:600  0:073    Mode 1: 80x25
+4:719  0:118    Mode 2: 80x25
+4:793  0:073    Mode 3: 100x31 (current mode)
+4:866  0:073    Mode 4: 480x113
+4:940  0:073  SetScreenResolution: 1280x1024 - already set
+5:091  0:150  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+5:165  0:074  MAC address of LAN #0= 80:FA:5B:21:59:35:
+7:316  2:150  ScanSPD() start
+7:389  0:073  SMBus CmdReg: 0x3
+7:469  0:079  Scanning SMBus [8086:A123], mmio: 0xDA1B0004, ioport: 0xF000, hostc: 0x11
+7:590  0:121  Slots to scan [8]...
+7:683  0:092  SPD[1]: Type 0 @0x51 
+7:772  0:089  SPD[3]: Type 0 @0x53 
+7:866  0:093  ScanSPD() end
+7:969  0:103  Get Acpi Tables List from RSDT:
+8:112  0:142   Found table: FACP  A M I  len=132
+8:185  0:073   Found table: APIC  A M I  len=188
+8:258  0:073   Found table: FPDT  A M I  len=68
+8:338  0:080   Found table: FIDT  A M I  len=156
+8:412  0:073   Found table: MCFG  A M I len=60
+8:486  0:073   Found table: HPET  A M I len=56
+8:559  0:073   Found table: SSDT  SataTabl len=877
+9:325  0:766   Found table: SSDT  NvdTabl len=11582
+9:398  0:072   Found table: DBGP   len=52
+9:471  0:072   Found table: DBG2   len=84
+9:544  0:072   Found table: SSDT  SaSsdt  len=5645
+9:639  0:094   Found table: UEFI   len=66
+9:711  0:072   Found table: SSDT  CpuSsdt len=3672
+9:784  0:072   Found table: DMAR  SKL  len=112
+9:864  0:080   Found table: UEFI  RstSataE len=1594
+9:938  0:073   Found table: UEFI  RstSataV len=92
+10:011  0:073   Found table: TPM2  Tpm2Tabl len=52
+10:126  0:115   Found table: ASF!   HCG len=165
+10:199  0:073   Found table: BGRT  A M I len=56
+10:272  0:073  Calibrated TSC frequency =4008566290 =4008MHz
+10:346  0:073  Loading main settings
+10:420  0:073  USB FixOwnership: true
+10:494  0:074  Dropping 3 tables
+11:025  0:531  Drop table 0 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+15:831  4:805  set table: 54445353,       6D50757043 to drop:
+16:509  0:678  Drop table 1 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+20:174  3:664  set table: 54445353,   74734930757043 to drop:
+20:283  0:108  Drop table 2 signature="DMAR" (52414D44)
+20:781  0:498  set table: 52414D44,                0 to drop:  true
+20:927  0:146  
+21:000  0:073  Config set Fixes will override FixMask mask!
+21:074  0:073     final mask=08408011
+21:820  0:746  Config set ChassisType=0xD
+21:873  0:053  found 11 volumes with blockIO
+21:930  0:056   0. Volume:
+21:986  0:055    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)
+22:054  0:068    USB volume
+22:130  0:076   1. Volume:
+22:185  0:054    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+22:244  0:059    Result of bootcode detection: bootable unknown (legacy)
+22:304  0:059    USB volume
+22:358  0:054    This is SelfVolume !!
+22:413  0:054   2. Volume:
+22:467  0:054    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(2,GPT,24FBC3E9-3074-4140-A828-5E72EFD9F420,0x64028,0x1DC14B0)
+22:526  0:058    USB volume
+22:578  0:052   3. Volume:
+22:668  0:090    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(3,GPT,547F1672-8C05-4F37-8522-8BFA246C3963,0x1E654D8,0x1D62300)
+22:732  0:063    USB volume
+22:787  0:054   4. Volume:
+22:845  0:058    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)
+22:904  0:058    Result of bootcode detection: bootable Linux (grub,linux)
+22:962  0:058   5. Volume:
+23:021  0:058    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(1,GPT,BD7BEB52-D22B-45CB-928B-46E7B920ADF4,0x800,0x38800)
+23:099  0:078    Result of bootcode detection: bootable unknown (legacy)
+23:185  0:085   6. Volume:
+23:241  0:056    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(2,GPT,70A995FA-4184-4BAD-A060-F71F430EF732,0x39000,0x38762000)
+23:321  0:079   7. Volume:
+23:402  0:081    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(3,GPT,603944CB-BD0B-4E33-BD62-6547015A6CA1,0x3879B000,0x3B9B000)
+23:942  0:539   8. Volume:
+23:996  0:053    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(4,GPT,74D39A25-6FB1-4C85-BAE9-C4AF4A4945B5,0x3C336000,0x8000)
+24:078  0:082   9. Volume:
+24:136  0:058    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(5,GPT,9F058A07-483C-4DA9-9A4D-982EE0336F24,0x3C33E000,0x30E98800)
+24:214  0:077    Result of bootcode detection: bootable Windows (vista,win)
+24:270  0:056  10. Volume:
+24:328  0:058    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(6,GPT,8F9F7A56-C842-4BB5-BD27-34B4993A5E79,0x6D1D6800,0x7530000)
+24:393  0:065   using embedded theme
+24:451  0:058  Choosing theme <null string>
+24:509  0:058  Custom entries start
+24:596  0:086  Custom entries finish
+24:652  0:055  Scanning loaders...
+24:708  0:055   0: 'Whole Disc Boot' no file system
+24:820  0:111   1: 'EFI'
+24:952  0:132   2: 'Install OS X El Capitan'
+25:076  0:123      AddLoaderEntry for Volume Name=Install OS X El Capitan
+25:137  0:060   3: 'Untitled'
+25:247  0:110   4: 'Whole Disc Boot' no file system
+25:358  0:111   5: 'EFI'
+25:511  0:153      AddLoaderEntry for Volume Name=EFI
+25:568  0:056      AddLoaderEntry for Volume Name=EFI
+26:326  0:758   6: 'Legacy HD2' no file system
+26:445  0:119   7: 'Legacy HD3' no file system
+26:557  0:112   8: 'Legacy HD4' no file system
+26:678  0:120   9: ''
+26:790  0:112  10: 'untitled'
+26:903  0:112  Custom legacy start
+26:966  0:062  Custom legacy end
+27:022  0:056  Scanning legacy ...
+27:078  0:056   0: 'Whole Disc Boot' (legacy) not legacy
+27:191  0:112   1: 'EFI' (legacy) not legacy
+27:303  0:112   2: 'Install OS X El Capitan' (legacy) not legacy
+27:430  0:127   3: 'Untitled' (legacy) not legacy
+27:564  0:133   4: 'Whole Disc Boot' (grub,linux) hidden
+27:682  0:117   5: 'EFI' (legacy) not legacy
+27:800  0:118   6: 'Legacy HD2' (legacy) not legacy
+28:175  0:375   7: 'Legacy HD3' (legacy) not legacy
+28:696  0:520   8: 'Legacy HD4' (legacy) not legacy
+28:808  0:112   9: '' (vista,win) add legacy
+28:927  0:119   added 'Boot Windows from ' OSType=2 Icon=vista,win
+28:983  0:056  10: 'untitled' (legacy) not legacy
+29:095  0:111  Custom tool start
+29:151  0:056  Custom tool end
+29:208  0:056  found tool \EFI\CLOVER\tools\Shell64U.efi
+29:286  0:078  Checking EFI partition Volume 1 for Clover
+29:341  0:054   Found Clover
+29:403  0:062  Checking EFI partition Volume 5 for Clover
+29:458  0:054  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+29:575  0:116  EfiBootVolume not found
+29:629  0:054  Default boot entry not found
+29:684  0:054  DefaultIndex=-1 and MainMenu.EntryCount=10
+29:748  0:063  GUI ready
+32:583  2:834  Boot option Boot0000 not found
+32:638  0:054  StartLoader() start
+32:731  0:093  Entry->Settings: <null string>
+32:790  0:058  Finally: Bus=100214kHz CPU=4009MHz
+32:849  0:059  Kernel and Kext Patches at 30D070F0:
+32:915  0:065  	Allowed: y
+32:974  0:058  	Debug: n
+33:708  0:734  	KernelCpu: n
+33:760  0:052  	Lapic: n
+33:818  0:058  	Haswell-E: y
+33:884  0:065  	AICPUPM: n
+33:942  0:058  	AppleRTC: n
+34:000  0:058  	KernelPm: y
+34:058  0:058  	FakeCPUID: 0x0
+34:116  0:057  	ATIController: null
+34:174  0:058  	ATIDataLength: 0
+34:239  0:065  	0 Kexts to load
+34:326  0:086  	1 Kexts to patch
+34:382  0:055  	  KextPatch[0]: 6 bytes, AppleAPIC
+34:438  0:055  Loading boot.efi  status=Success
+34:668  0:230  GetOSVersion: : 10.11
+34:793  0:124  insert table 9 for dev 0:0
+34:849  0:055  insert table 9 for dev 0:1
+34:912  0:063  insert table 9 for dev 0:0
+34:975  0:063  insert table 9 for dev 0:0
+35:032  0:056  Trusting SMBIOS...
+35:088  0:055  Detected alternating SMBIOS channel banks
+35:143  0:055  Channels: 2
+35:199  0:056  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+37:387  2:187  SMBIOS Type 17 Index = 0 => 0 0:
+37:451  0:063  BANK0 DIMM0 EMPTY
+37:507  0:056   partNum=HMA41GS6AFR8N-TF    
+37:563  0:056  SMBIOS Type 17 Index = 1 => 1 2:
+37:620  0:056  BANK1 DIMM0 2133MHz 8192MB
+37:683  0:063  mTotalSystemMemory = 8192
+38:410  0:726  SMBIOS Type 17 Index = 2 => 2 1:
+38:462  0:052  BANK0 DIMM1 EMPTY
+38:520  0:057   partNum=HMA41GS6AFR8N-TF    
+38:578  0:058  SMBIOS Type 17 Index = 3 => 3 3:
+38:636  0:057  BANK1 DIMM1 2133MHz 8192MB
+38:730  0:093  mTotalSystemMemory = 16384
+38:786  0:055  NumberOfMemoryDevices = 4
+38:842  0:056  Type20[0]->End = 0x7FFFFF, Type17[1] = 0x2000
+38:898  0:055  Type20[1]->End = 0xFFFFFF, Type17[3] = 0x6000
+38:953  0:055  Table 131 is present, CPUType=31
+39:009  0:055  Change to: 706
+39:065  0:056  RSDT 0x37935028
+39:121  0:055  FADT from RSDT: 0x37935168
+39:177  0:055  XSDT 0x379350A0
+39:232  0:055  FADT from XSDT: 0x37950130
+39:288  0:055  Xsdt reallocation done
+39:381  0:092  old FADT length=10C
+39:435  0:054  Found OperationRegion(GNVS, SystemMemory, 37B9B000, ...)
+39:490  0:054  Found OperationRegion(CPSB, SystemMemory, 374F1F18, ...)
+39:545  0:054  Found OperationRegion(PNVA, SystemMemory, 37B9CC98, ...)
+39:599  0:054  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+39:654  0:054  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+39:708  0:054  Found OperationRegion(PDW1, SystemMemory, 0, ...)
+39:763  0:054  Found OperationRegion(PDW1, SystemMemory, 0, ...)
+39:846  0:082  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+39:912  0:065  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+39:970  0:058  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+40:697  0:727  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+40:750  0:052  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+40:807  0:057  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+40:865  0:057  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+40:923  0:057  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+41:009  0:086  Found OperationRegion(PREG, SystemMemory, 0, ...)
+41:072  0:062  Found OperationRegion(PREG, SystemMemory, 0, ...)
+41:127  0:055  Found OperationRegion(PREG, SystemMemory, 0, ...)
+41:182  0:055  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+41:245  0:062  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+41:300  0:055  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+41:356  0:055  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+41:411  0:055  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+41:489  0:077  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+41:543  0:054  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+41:597  0:054  Found OperationRegion(THBA, SystemMemory, FE200000, ...)
+41:652  0:054  Found OperationRegion(THBA, SystemMemory, 0, ...)
+41:720  0:068  Found OperationRegion(PWMR, SystemMemory, 0, ...)
+41:775  0:054  Found OperationRegion(PMST, SystemMemory, 0, ...)
+41:845  0:070  Found OperationRegion(PCR0, SystemMemory, 0, ...)
+41:900  0:054  Found OperationRegion(PCR0, SystemMemory, 0, ...)
+41:982  0:082  Found OperationRegion(PCR1, SystemMemory, 0, ...)
+42:041  0:058  Found OperationRegion(XHCP, SystemMemory, 0, ...)
+42:106  0:065  Found OperationRegion(MC11, SystemMemory, 0, ...)
+42:165  0:058  Found OperationRegion(MC11, SystemMemory, 0, ...)
+42:223  0:058  Found OperationRegion(XDBW, SystemMemory, 0, ...)
+42:281  0:057  Found OperationRegion(XDBD, SystemMemory, 0, ...)
+42:385  0:104  Found OperationRegion(XDW2, SystemMemory, 0, ...)
+42:445  0:060  Found OperationRegion(HDAM, SystemMemory, 0, ...)
+43:132  0:686  Found OperationRegion(RPAL, SystemMemory, 0, ...)
+43:187  0:054  Found OperationRegion(EPAC, SystemMemory, 0, ...)
+43:243  0:055  Found OperationRegion(NCRG, SystemMemory, 0, ...)
+43:298  0:055  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+43:354  0:055  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+43:409  0:055  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+43:465  0:055  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+43:543  0:078  Found OperationRegion(BAR0, SystemMemory, 0, ...)
+43:597  0:053  Found OperationRegion(BAR0, SystemMemory, 0, ...)
+43:651  0:054  Found OperationRegion(BAR1, SystemMemory, 0, ...)
+43:712  0:061  Found OperationRegion(BAR1, SystemMemory, 0, ...)
+43:775  0:063  Found OperationRegion(MMMM, SystemMemory, 0, ...)
+43:829  0:053  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+43:884  0:054  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+43:938  0:054  Found OperationRegion(ITSS, SystemMemory, FDC43100, ...)
+44:020  0:081  Found OperationRegion(MBAR, SystemMemory, 0, ...)
+44:078  0:057  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+44:135  0:057  Found OperationRegion(ABCD, SystemMemory, 0, ...)
+44:193  0:057  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+44:251  0:057  Found OperationRegion(MMMM, SystemMemory, 0, ...)
+44:312  0:060  Found OperationRegion(MMMS, SystemMemory, 0, ...)
+44:370  0:058  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+44:457  0:086  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+44:513  0:055  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+44:569  0:055  Found OperationRegion(RP_X, SystemMemory, 0, ...)
+44:624  0:055  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+44:681  0:056  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+44:773  0:092  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+44:816  0:042  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+45:261  0:445  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+45:372  0:111  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+45:414  0:042  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+45:457  0:042  Found OperationRegion(CRBD, SystemMemory, FED40000, ...)
+45:499  0:042  Found OperationRegion(TPMR, SystemMemory, FFFFFFFF, ...)
+45:542  0:042  Found OperationRegion(RH2M, SystemMemory, 0, ...)
+45:584  0:042  Found OperationRegion(WH2M, SystemMemory, 0, ...)
+45:626  0:042  Found OperationRegion(RAM_, SystemMemory, FF700100, ...)
+45:669  0:042  Found OperationRegion(RAM2, SystemMemory, FF70F100, ...)
+45:740  0:070  Apply DsdtFixMask=0x08408011 old way
+45:782  0:042     drop _DSM mask=0x0088
+45:827  0:045  ========= Auto patch DSDT Starting ========
+45:869  0:042  VideoCard devID=0x161710DE
+45:912  0:042  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+45:955  0:043  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+45:998  0:042  Found Airport Atheros at 0x1D0000, 0x0, DeviceID=0x003E
+46:054  0:055  first CPU found at 6DBD offset 6DC0
+46:099  0:045  score candidate at 6DB9
+46:170  0:071  score inserted in acpi_cpu_score _PR_
+46:213  0:042  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+47:264  1:050  Found PCIROOTUID = 0
+47:307  0:042  Start RTC Fix
+47:350  0:043  found RTC Length not match, Maybe will case CMOS reset will patch it.
+47:392  0:042  found RTC had IRQNoFlag will move -3 bytes
+47:438  0:045  ...len=1AF7D
+47:481  0:042  new size written to 155E0 shift=0 len=1AF7D
+47:555  0:074  len after correct outers 1AF7D
+47:598  0:042  Start TMR Fix
+47:641  0:043  Start HPET Fix
+47:684  0:043  patch HDEF in DSDT 
+47:727  0:043  Start HDA Fix
+47:770  0:042  found HDA device NAME(_ADR,0x001F0003) And Name is HDAS
+47:813  0:042  Name HDAS present at 0x83D8, renaming to HDEF
+47:856  0:042  Name HDAS present at 0x9DCB, renaming to HDEF
+47:902  0:045  Name HDAS present at 0x9F3D, renaming to HDEF
+47:945  0:043  Name HDAS present at 0x9F4E, renaming to HDEF
+47:988  0:043  Name HDAS present at 0x9FF3, renaming to HDEF
+48:060  0:071  Name HDAS present at 0xA061, renaming to HDEF
+48:104  0:043  _DSM in HDA already exists, dropped
+48:147  0:043  ========= Auto patch DSDT Finished ========
+48:190  0:043  Drop tables from Xsdt, SIGN=DMAR TableID=SKL  Length=112
+48:233  0:043   Xsdt has tables count=19 
+48:277  0:043   Table: DMAR  SKL   112 dropped
+48:323  0:046  corrected XSDT length=180
+48:369  0:045  Patch table: SSDT  SataTabl
+49:084  0:714   SSDT len = 0x36D
+49:124  0:039  Patch table: SSDT  NvdTabl
+49:196  0:072   SSDT len = 0x2D3E
+49:239  0:043  Patch table: SSDT  SaSsdt 
+49:282  0:043   SSDT len = 0x160D
+49:325  0:043  Patch table: SSDT  CpuSsdt
+49:369  0:043   SSDT len = 0xE58
+49:411  0:042  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+49:455  0:043   Xsdt has tables count=18 
+49:500  0:045  corrected XSDT length=180
+49:543  0:043   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=1
+49:587  0:043  Maximum control=0x28
+49:630  0:043  Turbo control=0x2A
+49:702  0:072  P-States: min 0x8, max 0x2A
+49:745  0:043  SSDT with CPU P-States generated successfully
+49:791  0:045  SSDT with CPU C-States generated successfully
+49:835  0:043  NVidia GFX injection not set
+49:878  0:043  USB Controller [8086:A12F] :: PciRoot(0x0)\Pci(0x14,0x0)
+49:921  0:043  LAN Controller [1969:E0A1] :: PciRoot(0x0)\Pci(0x1C,0x6)\Pci(0x0,0x0)
+49:965  0:043  HDA Controller [8086:A170] :: PciRoot(0x0)\Pci(0x1F,0x3) => codec not detected
+50:067  0:102  stringlength = 1064
+50:110  0:043  CurrentMode: Width=1280 Height=1024
+50:183  0:072  Beginning FSInjection
+50:234  0:051  MSR 0x1B0   set to        00000000
+50:278  0:043  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+50:369  0:090    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+50:417  0:047  Custom boot screen not used because entry has unset use graphics
+50:449  0:032  Closing log
+0:100  0:100  MemLog inited, TSC freq: 4008549150
+0:100  0:000  MemLog was calibrated without ACPI PM Timer: ACPI I/O space is not enabled.
+0:100  0:000  
+0:100  0:000  Now is 9.11.2015,  0:11:2 (GMT+2047)
+0:100  0:000  Starting Clover rev 3320 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000) @35A5A598
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3320  running on P7xxDM(-G) 
+0:100  0:000  ... with board P7xxDM(-G) 
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+0:100  0:000  MSR 0xE2 before patch 1E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00031814
+0:100  0:000  MSR 0xCE              00080838_F1012800
+0:100  0:000  non-usable FLEX_RATIO = F0000
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x5E/0x3
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 40.0/8
+0:100  0:000  Turbo: 40/40/40/42
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 4000 MHz
+0:100  0:000  TSC: 4000 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 1617 class=030000
+0:100  0:000  Found NVidia model=Unknown
+0:100  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 A131 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 2822 class=010400
+0:100  0:000  PCI (00|00:1C.00) : 8086 A110 class=060400
+0:100  0:000  PCI (00|00:1C.06) : 8086 A116 class=060400
+0:100  0:000  PCI (00|3B:00.00) : 1969 E0A1 class=020000
+0:100  0:000  LAN 0, Vendor=1969, MMIO=DC500000
+0:100  0:000  PCI (00|00:1C.07) : 8086 A117 class=060400
+0:100  0:000  PCI (00|3C:00.00) : 10EC 5250 class=080501
+0:100  0:000  PCI (00|00:1D.00) : 8086 A11C class=060400
+0:100  0:000  PCI (00|3D:00.00) : 168C 003E class=028000
+0:100  0:000  PCI (00|00:1F.00) : 8086 A145 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:100  0:000  Clover load options size = 0 bytes
+0:149  0:048  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:149  0:000  EFI\CLOVER\config.plist loaded: Success
+0:154  0:004  Found theme directory: embedded
+0:154  0:000  Found theme directory: random
+0:158  0:004  Loading early settings
+0:158  0:000  timeout set to 5
+0:158  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:455  0:296  KextsToPatch: 1 requested
+0:533  0:078  KextsToPatch 0: AppleAPIC (Skylake AppleAPIC Patch (c) Pike R. Alpha) Kext bin patch, data len: 6
+0:885  0:352  Default theme: embedded
+0:958  0:073  LoadDrivers() start
+1:042  0:083  Loading FSInject-64.efi  status=Success
+1:274  0:232  Loading OsxAptioFixDrv-64.efi  status=Success
+2:151  0:876  Loading OsxFatBinaryDrv-64.efi  status=Success
+2:379  0:227  Loading HFSPlus.efi  status=Success
+2:620  0:240   - driver needs connecting
+2:703  0:083  1 drivers needs connecting ...
+2:770  0:067  PlatformDriverOverrideProtocol not found. Installing ... Success
+2:917  0:146  HFS+ driver loaded 
+3:026  0:109  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+3:361  0:334  LoadDrivers() end
+3:430  0:068  Dump SMC keys from NVRAM:
+3:519  0:089  SetScreenResolution: 1280x1024 - setting Mode 6
+4:257  0:737  Video mode change to mode #6: Success
+4:501  0:244  Console modes reported: 4, available modes:
+4:771  0:269    Mode 1: 80x25
+5:428  0:657    Mode 2: 80x25
+5:499  0:070    Mode 3: 100x31 (current mode)
+5:573  0:073    Mode 4: 480x113
+5:646  0:073  SetScreenResolution: 1280x1024 - already set
+5:828  0:182  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+5:901  0:073  MAC address of LAN #0= 80:FA:5B:21:59:35:
+6:496  0:594  ScanSPD() start
+6:570  0:074  SMBus CmdReg: 0x3
+6:644  0:073  Scanning SMBus [8086:A123], mmio: 0xDA1B0004, ioport: 0xF000, hostc: 0x11
+7:151  0:507  Slots to scan [8]...
+7:500  0:349  SPD[1]: Type 0 @0x51 
+7:757  0:257  SPD[3]: Type 0 @0x53 
+8:812  1:055  ScanSPD() end
+8:898  0:085  Get Acpi Tables List from RSDT:
+9:034  0:136   Found table: FACP  A M I  len=132
+9:089  0:054   Found table: APIC  A M I  len=188
+9:144  0:054   Found table: FPDT  A M I  len=68
+9:199  0:054   Found table: FIDT  A M I  len=156
+9:256  0:057   Found table: MCFG  A M I len=60
+9:311  0:054   Found table: HPET  A M I len=56
+9:366  0:054   Found table: SSDT  SataTabl len=877
+9:420  0:054   Found table: SSDT  NvdTabl len=11582
+9:475  0:054   Found table: DBGP   len=52
+9:560  0:084   Found table: DBG2   len=84
+9:614  0:054   Found table: SSDT  SaSsdt  len=5645
+9:669  0:055   Found table: UEFI   len=66
+9:731  0:062   Found table: SSDT  CpuSsdt len=3672
+9:786  0:054   Found table: DMAR  SKL  len=112
+9:851  0:064   Found table: UEFI  RstSataE len=1594
+9:925  0:074   Found table: UEFI  RstSataV len=92
+9:999  0:074   Found table: TPM2  Tpm2Tabl len=52
+10:073  0:074   Found table: ASF!   HCG len=165
+10:148  0:074   Found table: BGRT  A M I len=56
+10:222  0:074  Calibrated TSC frequency =4008549150 =4008MHz
+11:000  0:777  Loading main settings
+11:070  0:070  USB FixOwnership: true
+11:125  0:054  Dropping 3 tables
+11:179  0:054  Drop table 0 signature="DMAR" (52414D44)
+11:625  0:445  set table: 52414D44,                0 to drop:  true
+11:734  0:108  
+11:788  0:054  Drop table 1 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+13:180  1:391  set table: 54445353,   74734930757043 to drop:
+13:296  0:115  Drop table 2 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+14:225  0:929  set table: 54445353,       6D50757043 to drop:
+14:342  0:116  Config set Fixes will override FixMask mask!
+14:400  0:058     final mask=88408011
+14:458  0:058  Config set ChassisType=0xD
+14:517  0:058  found 11 volumes with blockIO
+14:576  0:058   0. Volume:
+14:634  0:058    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)
+14:765  0:130    USB volume
+15:212  0:446   1. Volume:
+15:555  0:342    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+16:088  0:532    Result of bootcode detection: bootable unknown (legacy)
+16:465  0:376    USB volume
+16:768  0:303    This is SelfVolume !!
+17:004  0:236   2. Volume:
+17:244  0:240    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(2,GPT,24FBC3E9-3074-4140-A828-5E72EFD9F420,0x64028,0x1DC14B0)
+17:656  0:411    USB volume
+18:028  0:371   3. Volume:
+18:270  0:242    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(3,GPT,547F1672-8C05-4F37-8522-8BFA246C3963,0x1E654D8,0x1D62300)
+19:328  1:057    USB volume
+19:368  0:040   4. Volume:
+19:412  0:043    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)
+19:456  0:044    Result of bootcode detection: bootable Linux (grub,linux)
+19:499  0:043   5. Volume:
+19:542  0:043    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(1,GPT,BD7BEB52-D22B-45CB-928B-46E7B920ADF4,0x800,0x38800)
+19:606  0:063    Result of bootcode detection: bootable unknown (legacy)
+19:649  0:042   6. Volume:
+19:692  0:043    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(2,GPT,70A995FA-4184-4BAD-A060-F71F430EF732,0x39000,0x38762000)
+19:760  0:068   7. Volume:
+19:815  0:055    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(3,GPT,603944CB-BD0B-4E33-BD62-6547015A6CA1,0x3879B000,0x3B9B000)
+19:859  0:043   8. Volume:
+19:902  0:043    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(4,GPT,74D39A25-6FB1-4C85-BAE9-C4AF4A4945B5,0x3C336000,0x8000)
+19:945  0:043   9. Volume:
+19:988  0:043    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(5,GPT,9F058A07-483C-4DA9-9A4D-982EE0336F24,0x3C33E000,0x30E98800)
+20:070  0:082    Result of bootcode detection: bootable Windows (vista,win)
+20:114  0:043  10. Volume:
+20:157  0:043    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(6,GPT,8F9F7A56-C842-4BB5-BD27-34B4993A5E79,0x6D1D6800,0x7530000)
+20:200  0:043   using embedded theme
+20:243  0:043  Choosing theme <null string>
+20:286  0:043  Custom entries start
+20:337  0:050  Custom entries finish
+20:380  0:043  Scanning loaders...
+20:424  0:043   0: 'Whole Disc Boot' no file system
+20:536  0:112   1: 'EFI'
+21:288  0:751   2: 'Install OS X El Capitan'
+21:381  0:092      AddLoaderEntry for Volume Name=Install OS X El Capitan
+21:450  0:069   3: 'Untitled'
+21:529  0:078   4: 'Whole Disc Boot' no file system
+21:608  0:079   5: 'EFI'
+21:727  0:118      AddLoaderEntry for Volume Name=EFI
+21:767  0:040      AddLoaderEntry for Volume Name=EFI
+21:807  0:040   6: 'Legacy HD2' no file system
+21:886  0:079   7: 'Legacy HD3' no file system
+21:973  0:086   8: 'Legacy HD4' no file system
+22:082  0:108   9: ''
+22:169  0:087  10: 'untitled'
+22:249  0:079  Custom legacy start
+22:289  0:039  Custom legacy end
+22:347  0:058  Scanning legacy ...
+22:401  0:053   0: 'Whole Disc Boot' (legacy) not legacy
+22:481  0:079   1: 'EFI' (legacy) not legacy
+22:651  0:170   2: 'Install OS X El Capitan' (legacy) not legacy
+22:718  0:066   3: 'Untitled' (legacy) not legacy
+22:785  0:066   4: 'Whole Disc Boot' (grub,linux) hidden
+22:852  0:066   5: 'EFI' (legacy) not legacy
+23:588  0:736   6: 'Legacy HD2' (legacy) not legacy
+23:678  0:090   7: 'Legacy HD3' (legacy) not legacy
+23:768  0:089   8: 'Legacy HD4' (legacy) not legacy
+23:858  0:090   9: '' (vista,win) add legacy
+23:948  0:090   added 'Boot Windows from ' OSType=2 Icon=vista,win
+24:000  0:052  10: 'untitled' (legacy) not legacy
+24:090  0:089  Custom tool start
+24:135  0:045  Custom tool end
+24:181  0:045  found tool \EFI\CLOVER\tools\Shell64U.efi
+24:226  0:045  Checking EFI partition Volume 1 for Clover
+24:271  0:044   Found Clover
+24:353  0:082  Checking EFI partition Volume 5 for Clover
+24:398  0:045  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+24:497  0:098  EfiBootVolume not found
+24:542  0:045  Default boot entry not found
+24:588  0:045  DefaultIndex=-1 and MainMenu.EntryCount=10
+24:642  0:054  GUI ready
+28:031  3:389  Found BIOS RSDP at F0010
+28:077  0:045  Printing ACPI tables from RSDP F0010 ...
+28:123  0:045   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+28:969  0:846    (Xsdt: 379350A0, Rsdt: 37935028)
+29:050  0:080    379350A0: 'XSDT', 'A M I ', Rev: 1, Len: 188
+29:212  0:162    37935028: 'RSDT', 'A M I ', Rev: 1, Len: 112
+29:347  0:135    Tables in Xsdt: 19
+29:402  0:054    0. 37950130: 'FACP', 'A M I ', Rev: 5, Len: 268
+29:555  0:152        (Dsdt: 379351F0, Facs: 37B9CF80, XDsdt: 379351F0, XFacs: 0)
+29:690  0:135        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+29:827  0:137        37B9CF80: 'FACS', Ver: 2, Len: 64
+29:918  0:090    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+30:097  0:179    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+30:313  0:216    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+30:414  0:100    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+30:514  0:100    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+31:268  0:754    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+31:402  0:134    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+31:544  0:141    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+31:685  0:141    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+31:847  0:162    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+31:982  0:134    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+32:117  0:134    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+32:259  0:142    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+32:402  0:142    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+32:610  0:208    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+32:714  0:103    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+32:814  0:100    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+32:932  0:117    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+33:044  0:112    Tables in Rsdt: 19
+33:124  0:080    0. 37935168: 'FACP', 'A M I ', Rev: 2, Len: 132
+33:225  0:100        (Dsdt: 379351F0, Facs: 37B9CF40)
+33:291  0:066        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+33:393  0:101        37B9CF40: 'FACS', Ver: 0, Len: 64
+33:471  0:078    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+33:571  0:100    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+33:730  0:158    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+33:830  0:100    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+33:942  0:111    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+34:062  0:120    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+34:172  0:110    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+34:286  0:113    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+34:397  0:111    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+34:497  0:100    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+34:615  0:117    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+34:732  0:116    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+34:832  0:100    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+34:932  0:100    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+35:684  0:751    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+35:810  0:126    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+35:939  0:128    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+36:068  0:128    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+36:229  0:161  Found UEFI Acpi 2.0 RSDP at 37935000
+36:272  0:043  Saving ACPI tables from RSDP 37935000 to EFI\CLOVER\ACPI\origin ...
+36:315  0:043   37935000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+36:630  0:314    (Xsdt: 379350A0, Rsdt: 37935028)
+36:675  0:045    379350A0: 'XSDT', 'A M I ', Rev: 1, Len: 188 -> XSDT.aml
+36:987  0:311    37935028: 'RSDT', 'A M I ', Rev: 1, Len: 112 -> RSDT.aml
+37:182  0:195    Tables in Xsdt: 19
+37:216  0:033    0. 37950130: 'FACP', 'A M I ', Rev: 5, Len: 268 -> FACP.aml
+37:437  0:221        (Dsdt: 379351F0, Facs: 37B9CF80, XDsdt: 379351F0, XFacs: 0)
+37:553  0:115        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400 -> DSDT.aml
+37:756  0:202        37B9CF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+37:925  0:169    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188 -> APIC.aml
+38:126  0:200    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68 -> FPDT.aml
+38:339  0:212    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156 -> FIDT.aml
+38:594  0:255    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+38:836  0:241    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+39:038  0:201    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0.aml
+39:954  0:916    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582 -> SSDT-1.aml
+40:231  0:276    8. 37953510: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+40:493  0:261    9. 37953548: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+40:835  0:342    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645 -> SSDT-2.aml
+41:199  0:363    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+41:494  0:294    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+ Found hidden SSDT 7 pcs
+41:594  0:100        * 36FB6818: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1962  53 53 44 54 AA 07 00 00 02 E6 50 6D 52 65 66 00 Internal length = 1962 -> SSDT-4x.aml
+43:113  1:518        * 36FB5618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-5x.aml
+44:782  1:669        * 36FB5C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-6x.aml
+45:752  0:970        * 374BCC18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-7x.aml
+47:272  1:519        * 35C5A818: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-8x.aml
+48:239  0:967        * 35C57018: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-9x.aml
+49:849  1:610        * 35C52D98: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-10x.aml
+50:861  1:011   -> SSDT-3.aml
+50:993  0:131    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112 -> DMAR.aml
+51:206  0:213    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594 -> UEFI.aml
+51:461  0:255    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92 -> UEFI.aml
+51:718  0:256    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+51:931  0:212    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+52:129  0:198    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+52:344  0:214    Tables in Rsdt: 19
+52:377  0:033    0. 37935168: 'FACP', 'A M I ', Rev: 2, Len: 132 -> RSDT-FACP.aml
+52:590  0:212        (Dsdt: 379351F0, Facs: 37B9CF40)
+52:657  0:066        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+52:776  0:119        37B9CF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+52:957  0:181    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+53:057  0:100    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+53:157  0:100    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+53:261  0:103    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+53:372  0:111    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+53:473  0:100    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+53:573  0:100    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+53:707  0:134    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+53:808  0:100    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+53:912  0:103    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+54:012  0:100    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+54:123  0:111    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+54:223  0:100    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+54:323  0:100    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+55:052  0:728    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+55:212  0:160    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+55:347  0:134    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+55:482  0:134    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+55:649  0:167  Found UEFI Acpi 1.0 RSDP at 37935000
+55:694  0:044  Printing ACPI tables from RSDP 37935000 ...
+55:738  0:044   37935000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+55:922  0:183    (Xsdt: 379350A0, Rsdt: 37935028)
+55:967  0:045    379350A0: 'XSDT', 'A M I ', Rev: 1, Len: 188
+56:138  0:171    37935028: 'RSDT', 'A M I ', Rev: 1, Len: 112
+56:274  0:136    Tables in Xsdt: 19
+56:320  0:045    0. 37950130: 'FACP', 'A M I ', Rev: 5, Len: 268
+56:484  0:163        (Dsdt: 379351F0, Facs: 37B9CF80, XDsdt: 379351F0, XFacs: 0)
+56:587  0:103        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+56:700  0:112        37B9CF80: 'FACS', Ver: 2, Len: 64
+56:766  0:066    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+56:867  0:100    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+57:001  0:134    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+57:121  0:120    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+57:231  0:110    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+57:348  0:117    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+57:479  0:130    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+57:589  0:110    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+57:689  0:100    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+57:806  0:116    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+57:924  0:117    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+58:040  0:116    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+58:151  0:111    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+58:251  0:099    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+58:352  0:100    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+58:452  0:100    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+58:556  0:103    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+58:667  0:111    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+58:785  0:117    Tables in Rsdt: 19
+58:818  0:033    0. 37935168: 'FACP', 'A M I ', Rev: 2, Len: 132
+58:935  0:116        (Dsdt: 379351F0, Facs: 37B9CF40)
+59:001  0:066        379351F0: 'DSDT', 'A M I ', Rev: 2, Len: 110400
+59:103  0:101        37B9CF40: 'FACS', Ver: 0, Len: 64
+59:170  0:066    1. 37950240: 'APIC', 'A M I ', Rev: 3, Len: 188
+59:286  0:115    2. 37950300: 'FPDT', 'A M I ', Rev: 1, Len: 68
+59:386  0:100    3. 37950348: 'FIDT', 'A M I ', Rev: 1, Len: 156
+59:504  0:117    4. 379503E8: 'MCFG', 'A M I', Rev: 1, Len: 60
+59:604  0:100    5. 37950428: 'HPET', 'A M I', Rev: 1, Len: 56
+59:720  0:116    6. 37950460: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+59:824  0:103    7. 379507D0: 'SSDT', 'NvdTabl', Rev: 1, Len: 11582
+59:924  0:100    8. 37953510: 'DBGP', '', Rev: 1, Len: 52
+60:035  0:111    9. 37953548: 'DBG2', '', Rev: 0, Len: 84
+60:156  0:120    10. 379535A0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 5645
+60:276  0:120    11. 37954BB0: 'UEFI', '', Rev: 1, Len: 66
+60:414  0:138    12. 37954BF8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+60:555  0:140    13. 37955A50: 'DMAR', 'SKL ', Rev: 1, Len: 112
+60:655  0:100    14. 37955AC0: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+60:755  0:100    15. 37956100: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+60:866  0:111    16. 37956160: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+60:966  0:099    17. 37956198: 'ASF!', ' HCG', Rev: 32, Len: 165
+61:090  0:123    18. 37956240: 'BGRT', 'A M I', Rev: 0, Len: 56
+63:830  2:739  adding to menu BGRT (54524742) A M I (49204D2041) L=56(0x38)
+63:881  0:051  adding to menu ASF! (21465341)  HCG (47434820) L=165(0xA5)
+63:914  0:033  adding to menu TPM2 (324D5054) Tpm2Tabl (6C626154326D7054) L=52(0x34)
+63:947  0:033  adding to menu UEFI (49464555) RstSataV (5661746153747352) L=92(0x5C)
+63:981  0:033  adding to menu UEFI (49464555) RstSataE (4561746153747352) L=1594(0x63A)
+64:024  0:043  adding to menu DMAR (52414D44) SKL  (204C4B53) L=112(0x70)
+64:058  0:033  adding to menu SSDT (54445353) CpuSsdt (74647353757043) L=3672(0xE58)
+64:109  0:051  adding to menu UEFI (49464555)  (0) L=66(0x42)
+64:142  0:033  adding to menu SSDT (54445353) SaSsdt  (20746473536153) L=5645(0x160D)
+64:175  0:033  adding to menu DBG2 (32474244)  (0) L=84(0x54)
+64:220  0:044  adding to menu DBGP (50474244)  (0) L=52(0x34)
+64:253  0:033  adding to menu SSDT (54445353) NvdTabl (6C62615464764E) L=11582(0x2D3E)
+64:287  0:033  adding to menu SSDT (54445353) SataTabl (6C62615461746153) L=877(0x36D)
+64:320  0:033  adding to menu HPET (54455048) A M I (49204D2041) L=56(0x38)
+64:371  0:050  adding to menu MCFG (4746434D) A M I (49204D2041) L=60(0x3C)
+64:416  0:044  adding to menu FIDT (54444946) A M I  (2049204D2041) L=156(0x9C)
+64:449  0:033  adding to menu FPDT (54445046) A M I  (2049204D2041) L=68(0x44)
+64:482  0:033  adding to menu APIC (43495041) A M I  (2049204D2041) L=188(0xBC)
+64:516  0:033  adding to menu FACP (50434146) A M I  (2049204D2041) L=132(0x84)
+122:196  57:680  Boot option Boot0000 not found
+122:240  0:044  StartLoader() start
+122:291  0:051  Entry->Settings: <null string>
+122:325  0:033  Finally: Bus=100213kHz CPU=4009MHz
+122:358  0:033  Kernel and Kext Patches at 30D070F0:
+122:402  0:043  	Allowed: y
+122:435  0:033  	Debug: n
+122:468  0:033  	KernelCpu: n
+122:502  0:033  	Lapic: n
+122:535  0:033  	Haswell-E: y
+122:569  0:033  	AICPUPM: n
+122:613  0:044  	AppleRTC: n
+122:646  0:033  	KernelPm: y
+122:683  0:037  	FakeCPUID: 0x0
+122:717  0:033  	ATIController: null
+122:750  0:033  	ATIDataLength: 0
+122:801  0:051  	0 Kexts to load
+122:835  0:033  	1 Kexts to patch
+122:868  0:033  	  KextPatch[0]: 6 bytes, AppleAPIC
+122:901  0:033  Loading boot.efi  status=Success
+123:062  0:160  GetOSVersion: : 10.11
+123:129  0:067  insert table 9 for dev 0:0
+123:163  0:033  insert table 9 for dev 0:1
+123:196  0:033  insert table 9 for dev 0:0
+123:230  0:033  insert table 9 for dev 0:0
+123:264  0:033  Trusting SMBIOS...
+123:297  0:033  Detected alternating SMBIOS channel banks
+123:335  0:037  Channels: 2
+123:386  0:050  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+124:296  0:910  SMBIOS Type 17 Index = 0 => 0 0:
+124:330  0:033  BANK0 DIMM0 EMPTY
+124:363  0:033   partNum=HMA41GS6AFR8N-TF    
+124:397  0:033  SMBIOS Type 17 Index = 1 => 1 2:
+124:431  0:034  BANK1 DIMM0 2133MHz 8192MB
+124:465  0:033  mTotalSystemMemory = 8192
+124:498  0:033  SMBIOS Type 17 Index = 2 => 2 1:
+124:542  0:044  BANK0 DIMM1 EMPTY
+124:579  0:036   partNum=HMA41GS6AFR8N-TF    
+124:613  0:033  SMBIOS Type 17 Index = 3 => 3 3:
+124:664  0:051  BANK1 DIMM1 2133MHz 8192MB
+124:697  0:033  mTotalSystemMemory = 16384
+124:731  0:033  NumberOfMemoryDevices = 4
+124:764  0:033  Type20[0]->End = 0x7FFFFF, Type17[1] = 0x2000
+124:797  0:033  Type20[1]->End = 0xFFFFFF, Type17[3] = 0x6000
+124:831  0:033  Table 131 is present, CPUType=31
+124:864  0:033  Change to: 706
+124:919  0:055  RSDT 0x37935028
+124:953  0:033  FADT from RSDT: 0x37935168
+124:986  0:033  XSDT 0x379350A0
+125:020  0:033  FADT from XSDT: 0x37950130
+125:071  0:051  Xsdt reallocation done
+125:104  0:033  old FADT length=10C
+125:138  0:033  Found OperationRegion(GNVS, SystemMemory, 37B9B000, ...)
+125:171  0:033  Found OperationRegion(CPSB, SystemMemory, 374F1F18, ...)
+125:216  0:044  Found OperationRegion(PNVA, SystemMemory, 37B9CC98, ...)
+125:249  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:293  0:044  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:327  0:033  Found OperationRegion(PDW1, SystemMemory, 0, ...)
+125:378  0:050  Found OperationRegion(PDW1, SystemMemory, 0, ...)
+125:411  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:444  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:478  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:511  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:544  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:578  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:611  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:674  0:062  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:707  0:033  Found OperationRegion(PREG, SystemMemory, 0, ...)
+125:740  0:033  Found OperationRegion(PREG, SystemMemory, 0, ...)
+125:774  0:033  Found OperationRegion(PREG, SystemMemory, 0, ...)
+125:807  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:844  0:036  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+125:878  0:033  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+125:911  0:033  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+125:962  0:051  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+125:996  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+126:046  0:049  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+126:079  0:033  Found OperationRegion(THBA, SystemMemory, FE200000, ...)
+126:112  0:033  Found OperationRegion(THBA, SystemMemory, 0, ...)
+126:146  0:033  Found OperationRegion(PWMR, SystemMemory, 0, ...)
+126:179  0:033  Found OperationRegion(PMST, SystemMemory, 0, ...)
+126:230  0:050  Found OperationRegion(PCR0, SystemMemory, 0, ...)
+126:264  0:033  Found OperationRegion(PCR0, SystemMemory, 0, ...)
+126:297  0:033  Found OperationRegion(PCR1, SystemMemory, 0, ...)
+126:330  0:033  Found OperationRegion(XHCP, SystemMemory, 0, ...)
+126:378  0:047  Found OperationRegion(MC11, SystemMemory, 0, ...)
+126:430  0:051  Found OperationRegion(MC11, SystemMemory, 0, ...)
+126:474  0:044  Found OperationRegion(XDBW, SystemMemory, 0, ...)
+126:512  0:037  Found OperationRegion(XDBD, SystemMemory, 0, ...)
+126:563  0:051  Found OperationRegion(XDW2, SystemMemory, 0, ...)
+126:597  0:033  Found OperationRegion(HDAM, SystemMemory, 0, ...)
+126:630  0:033  Found OperationRegion(RPAL, SystemMemory, 0, ...)
+126:663  0:033  Found OperationRegion(EPAC, SystemMemory, 0, ...)
+126:697  0:033  Found OperationRegion(NCRG, SystemMemory, 0, ...)
+126:730  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+126:764  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+126:831  0:067  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+126:865  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+126:898  0:033  Found OperationRegion(BAR0, SystemMemory, 0, ...)
+126:931  0:033  Found OperationRegion(BAR0, SystemMemory, 0, ...)
+126:965  0:033  Found OperationRegion(BAR1, SystemMemory, 0, ...)
+126:998  0:033  Found OperationRegion(BAR1, SystemMemory, 0, ...)
+127:031  0:033  Found OperationRegion(MMMM, SystemMemory, 0, ...)
+127:065  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:116  0:051  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:160  0:044  Found OperationRegion(ITSS, SystemMemory, FDC43100, ...)
+127:194  0:033  Found OperationRegion(MBAR, SystemMemory, 0, ...)
+127:238  0:044  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:272  0:033  Found OperationRegion(ABCD, SystemMemory, 0, ...)
+127:305  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:338  0:033  Found OperationRegion(MMMM, SystemMemory, 0, ...)
+127:372  0:033  Found OperationRegion(MMMS, SystemMemory, 0, ...)
+127:423  0:051  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:456  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:490  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+127:523  0:033  Found OperationRegion(RP_X, SystemMemory, 0, ...)
+127:557  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+127:601  0:044  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+127:635  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+127:686  0:051  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+127:719  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+127:752  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+127:786  0:033  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+127:831  0:044  Found OperationRegion(CRBD, SystemMemory, FED40000, ...)
+127:864  0:033  Found OperationRegion(TPMR, SystemMemory, FFFFFFFF, ...)
+127:897  0:033  Found OperationRegion(RH2M, SystemMemory, 0, ...)
+127:931  0:033  Found OperationRegion(WH2M, SystemMemory, 0, ...)
+127:993  0:062  Found OperationRegion(RAM_, SystemMemory, FF700100, ...)
+128:026  0:033  Found OperationRegion(RAM2, SystemMemory, FF70F100, ...)
+128:060  0:033  Apply DsdtFixMask=0x88408011 new way
+128:093  0:033     drop _DSM mask=0x0088
+128:127  0:033  ========= Auto patch DSDT Starting ========
+128:160  0:033  VideoCard devID=0x161710DE
+128:193  0:033  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+128:227  0:033  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+128:278  0:051  Found Airport Atheros at 0x1D0000, 0x0, DeviceID=0x003E
+128:325  0:046  first CPU found at 6DBD offset 6DC0
+128:369  0:044  score candidate at 6DB9
+128:403  0:033  score inserted in acpi_cpu_score _PR_
+128:436  0:033  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+128:752  0:315  Found PCIROOTUID = 0
+128:785  0:033  Start HPET Fix
+128:819  0:033  patch HDEF in DSDT 
+128:853  0:033  Start HDA Fix
+128:886  0:033  found HDA device NAME(_ADR,0x001F0003) And Name is HDAS
+128:937  0:051  Name HDAS present at 0x83D8, renaming to HDEF
+128:971  0:033  Name HDAS present at 0x9DCB, renaming to HDEF
+129:004  0:033  Name HDAS present at 0x9F3D, renaming to HDEF
+129:037  0:033  Name HDAS present at 0x9F4E, renaming to HDEF
+129:087  0:049  Name HDAS present at 0x9FF3, renaming to HDEF
+129:124  0:036  Name HDAS present at 0xA061, renaming to HDEF
+129:158  0:033  _DSM in HDA already exists, dropped
+129:191  0:033  Start HDMI131 Fix
+129:242  0:050  have no HDMI device while HDMIADR2=1
+129:276  0:033  HDMIADR1=10000 HDMIADR2=1
+129:309  0:033    with default properties
+129:343  0:033   deleting device CRT_
+129:377  0:033   deleting device DVI_
+129:410  0:033   deleting device SPKR
+129:444  0:033   deleting device ECP_
+129:494  0:050   deleting device LPT_
+129:528  0:033   deleting device FDC0
+129:561  0:033   deleting device ECP1
+129:595  0:033   deleting device LPT1
+129:629  0:033  ========= Auto patch DSDT Finished ========
+129:680  0:051  Drop tables from Xsdt, SIGN=DMAR TableID=SKL  Length=112
+129:725  0:045   Xsdt has tables count=19 
+129:759  0:033   Table: DMAR  SKL   112 dropped
+129:792  0:033  corrected XSDT length=180
+129:825  0:033  Patch table: SSDT  SataTabl
+129:870  0:044   SSDT len = 0x36D
+129:903  0:033  Patch table: SSDT  NvdTabl
+129:937  0:033   SSDT len = 0x2D3E
+129:970  0:033  Patch table: SSDT  SaSsdt 
+130:004  0:033   SSDT len = 0x160D
+130:037  0:033  Patch table: SSDT  CpuSsdt
+130:088  0:051   SSDT len = 0xE58
+130:122  0:033  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+130:155  0:033   Xsdt has tables count=18 
+130:189  0:033  corrected XSDT length=180
+130:222  0:033   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=1
+130:266  0:044  Maximum control=0x28
+130:300  0:033  Turbo control=0x2A
+130:337  0:036  P-States: min 0x8, max 0x2A
+130:370  0:033  SSDT with CPU P-States generated successfully
+130:405  0:034  SSDT with CPU C-States generated successfully
+130:438  0:033  NVidia GFX injection not set
+130:489  0:051  USB Controller [8086:A12F] :: PciRoot(0x0)\Pci(0x14,0x0)
+130:522  0:033  LAN Controller [1969:E0A1] :: PciRoot(0x0)\Pci(0x1C,0x6)\Pci(0x0,0x0)
+130:556  0:033  HDA Controller [8086:A170] :: PciRoot(0x0)\Pci(0x1F,0x3) => codec not detected
+130:652  0:096  stringlength = 1064
+130:686  0:033  CurrentMode: Width=1280 Height=1024
+130:719  0:033  Beginning FSInjection
+130:760  0:041  MSR 0x1B0   set to        00000000
+130:794  0:033  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+130:845  0:051    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+130:892  0:047    Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext
+130:944  0:051      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+130:987  0:043      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+131:026  0:038      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+131:110  0:084  Custom boot screen not used because entry has unset use graphics
+131:148  0:037  Closing log
+0:100  0:100  MemLog inited, TSC freq: 4008556880
+0:100  0:000  MemLog was calibrated without ACPI PM Timer: ACPI I/O space is not enabled.
+0:100  0:000  
+0:100  0:000  Now is 9.11.2015,  1:19:56 (GMT+2047)
+0:100  0:000  Starting Clover rev 3320 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000) @35A5A598
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3320  running on P7xxDM(-G) 
+0:100  0:000  ... with board P7xxDM(-G) 
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+0:100  0:000  MSR 0xE2 before patch 1E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00031814
+0:100  0:000  MSR 0xCE              00080838_F1012800
+0:100  0:000  non-usable FLEX_RATIO = F0000
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x5E/0x3
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 40.0/8
+0:100  0:000  Turbo: 40/40/40/42
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 4000 MHz
+0:100  0:000  TSC: 4000 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 1617 class=030000
+0:100  0:000  Found NVidia model=Unknown
+0:100  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 A131 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 2822 class=010400
+0:100  0:000  PCI (00|00:1C.00) : 8086 A110 class=060400
+0:100  0:000  PCI (00|00:1C.06) : 8086 A116 class=060400
+0:100  0:000  PCI (00|3B:00.00) : 1969 E0A1 class=020000
+0:100  0:000  LAN 0, Vendor=1969, MMIO=DC500000
+0:100  0:000  PCI (00|00:1C.07) : 8086 A117 class=060400
+0:100  0:000  PCI (00|3C:00.00) : 10EC 5250 class=080501
+0:100  0:000  PCI (00|00:1D.00) : 8086 A11C class=060400
+0:100  0:000  PCI (00|3D:00.00) : 168C 003E class=028000
+0:100  0:000  PCI (00|00:1F.00) : 8086 A145 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:100  0:000  Clover load options size = 0 bytes
+0:117  0:017  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:118  0:000  EFI\CLOVER\config.plist loaded: Success
+0:122  0:004  Found theme directory: embedded
+0:122  0:000  Found theme directory: random
+0:126  0:004  Loading early settings
+0:126  0:000  timeout set to 5
+0:126  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:309  0:182  KextsToPatch: 1 requested
+0:353  0:044  KextsToPatch 0: AppleAPIC (Skylake AppleAPIC Patch (c) Pike R. Alpha) Kext bin patch, data len: 6
+0:516  0:162  Default theme: embedded
+0:555  0:039  LoadDrivers() start
+0:604  0:048  Loading FSInject-64.efi  status=Success
+0:742  0:138  Loading OsxAptioFixDrv-64.efi  status=Success
+0:906  0:164  Loading OsxFatBinaryDrv-64.efi  status=Success
+1:029  0:123  Loading HFSPlus.efi  status=Success
+1:172  0:143   - driver needs connecting
+1:228  0:055  1 drivers needs connecting ...
+1:267  0:039  PlatformDriverOverrideProtocol not found. Installing ... Success
+2:047  0:779  HFS+ driver loaded 
+2:089  0:042  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+2:361  0:272  LoadDrivers() end
+2:403  0:041  Dump SMC keys from NVRAM:
+2:459  0:055  SetScreenResolution: 1280x1024 - setting Mode 6
+2:591  0:132  Video mode change to mode #6: Success
+2:633  0:042  Console modes reported: 4, available modes:
+2:676  0:042    Mode 1: 80x25
+2:719  0:042    Mode 2: 80x25
+2:769  0:050    Mode 3: 100x31 (current mode)
+2:812  0:042    Mode 4: 480x113
+2:854  0:042  SetScreenResolution: 1280x1024 - already set
+2:940  0:085  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+2:983  0:043  MAC address of LAN #0= 80:FA:5B:21:59:35:
+3:394  0:411  ScanSPD() start
+3:440  0:045  SMBus CmdReg: 0x3
+3:648  0:207  Scanning SMBus [8086:A123], mmio: 0xDA1B0004, ioport: 0xF000, hostc: 0x11
+4:087  0:439  Slots to scan [8]...
+4:375  0:288  SPD[1]: Type 0 @0x51 
+4:625  0:249  SPD[3]: Type 0 @0x53 
+4:930  0:305  ScanSPD() end
+5:410  0:479  Get Acpi Tables List from RSDT:
+5:992  0:581   Found table: FACP  A M I  len=132
+6:285  0:293   Found table: APIC  A M I  len=188
+6:703  0:417   Found table: FPDT  A M I  len=68
+7:176  0:473   Found table: FIDT  A M I  len=156
+7:529  0:352   Found table: MCFG  A M I len=60
+7:758  0:229   Found table: HPET  A M I len=56
+7:991  0:232   Found table: SSDT  SataTabl len=877
+8:249  0:257   Found table: SSDT  NvdTabl len=11582
+8:282  0:033   Found table: DBGP   len=52
+8:315  0:033   Found table: DBG2   len=84
+8:348  0:033   Found table: SSDT  SaSsdt  len=5645
+8:381  0:033   Found table: UEFI   len=66
+8:419  0:037   Found table: SSDT  CpuSsdt len=3672
+8:452  0:033   Found table: DMAR  SKL  len=112
+8:502  0:050   Found table: UEFI  RstSataE len=1594
+8:547  0:044   Found table: UEFI  RstSataV len=92
+8:580  0:033   Found table: TPM2  Tpm2Tabl len=52
+8:613  0:033   Found table: ASF!   HCG len=165
+8:646  0:033   Found table: BGRT  A M I len=56
+8:679  0:033  Calibrated TSC frequency =4008556880 =4008MHz
+8:713  0:033  Loading main settings
+8:746  0:033  USB FixOwnership: true
+8:779  0:033  Dropping 3 tables
+8:812  0:033  Drop table 0 signature="DMAR" (52414D44)
+9:146  0:333  set table: 52414D44,                0 to drop:  true
+9:230  0:083  
+9:263  0:033  Drop table 1 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+9:888  0:625  set table: 54445353,   74734930757043 to drop:
+9:955  0:066  Drop table 2 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+10:504  0:549  set table: 54445353,       6D50757043 to drop:
+10:570  0:066  Config set Fixes will override FixMask mask!
+10:603  0:033     final mask=88408011
+10:637  0:033  Config set ChassisType=0xD
+10:687  0:050  found 11 volumes with blockIO
+10:721  0:033   0. Volume:
+10:754  0:033    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)
+10:790  0:036    USB volume
+10:821  0:031   1. Volume:
+10:854  0:033    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+10:907  0:052    Result of bootcode detection: bootable unknown (legacy)
+10:938  0:030    USB volume
+10:979  0:041    This is SelfVolume !!
+11:012  0:033   2. Volume:
+11:045  0:033    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(2,GPT,24FBC3E9-3074-4140-A828-5E72EFD9F420,0x64028,0x1DC14B0)
+11:099  0:053    USB volume
+11:131  0:032   3. Volume:
+11:164  0:033    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(3,GPT,547F1672-8C05-4F37-8522-8BFA246C3963,0x1E654D8,0x1D62300)
+11:200  0:035    USB volume
+11:232  0:032   4. Volume:
+11:286  0:054    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)
+11:319  0:033    Result of bootcode detection: bootable Linux (grub,linux)
+11:352  0:033   5. Volume:
+11:403  0:050    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(1,GPT,BD7BEB52-D22B-45CB-928B-46E7B920ADF4,0x800,0x38800)
+11:456  0:053    Result of bootcode detection: bootable unknown (legacy)
+11:489  0:033   6. Volume:
+11:523  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(2,GPT,70A995FA-4184-4BAD-A060-F71F430EF732,0x39000,0x38762000)
+11:556  0:033   7. Volume:
+11:589  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(3,GPT,603944CB-BD0B-4E33-BD62-6547015A6CA1,0x3879B000,0x3B9B000)
+11:656  0:067   8. Volume:
+11:697  0:041    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(4,GPT,74D39A25-6FB1-4C85-BAE9-C4AF4A4945B5,0x3C336000,0x8000)
+11:731  0:033   9. Volume:
+11:764  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(5,GPT,9F058A07-483C-4DA9-9A4D-982EE0336F24,0x3C33E000,0x30E98800)
+11:813  0:048    Result of bootcode detection: bootable Windows (vista,win)
+11:846  0:033  10. Volume:
+11:879  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(6,GPT,8F9F7A56-C842-4BB5-BD27-34B4993A5E79,0x6D1D6800,0x7530000)
+11:930  0:050   using embedded theme
+11:963  0:033  Choosing theme <null string>
+11:996  0:033  Custom entries start
+12:029  0:033  Custom entries finish
+12:083  0:054  Scanning loaders...
+12:117  0:033   0: 'Whole Disc Boot' no file system
+12:183  0:066   1: 'EFI'
+12:261  0:078   2: 'Install OS X El Capitan'
+12:337  0:076      AddLoaderEntry for Volume Name=Install OS X El Capitan
+12:376  0:038   3: 'Untitled'
+12:445  0:068   4: 'Whole Disc Boot' no file system
+12:542  0:097   5: 'EFI'
+12:652  0:110      AddLoaderEntry for Volume Name=EFI
+12:686  0:033      AddLoaderEntry for Volume Name=EFI
+12:719  0:033   6: 'Legacy HD2' no file system
+12:786  0:066   7: 'Legacy HD3' no file system
+12:852  0:066   8: 'Legacy HD4' no file system
+12:934  0:081   9: ''
+13:053  0:119  10: 'untitled'
+13:120  0:066  Custom legacy start
+13:153  0:033  Custom legacy end
+13:186  0:033  Scanning legacy ...
+13:219  0:033   0: 'Whole Disc Boot' (legacy) not legacy
+13:330  0:110   1: 'EFI' (legacy) not legacy
+13:396  0:066   2: 'Install OS X El Capitan' (legacy) not legacy
+13:462  0:066   3: 'Untitled' (legacy) not legacy
+13:529  0:066   4: 'Whole Disc Boot' (grub,linux) hidden
+13:595  0:066   5: 'EFI' (legacy) not legacy
+13:677  0:082   6: 'Legacy HD2' (legacy) not legacy
+13:744  0:066   7: 'Legacy HD3' (legacy) not legacy
+13:810  0:066   8: 'Legacy HD4' (legacy) not legacy
+13:876  0:066   9: '' (vista,win) add legacy
+13:943  0:066   added 'Boot Windows from ' OSType=2 Icon=vista,win
+13:993  0:050  10: 'untitled' (legacy) not legacy
+14:081  0:087  Custom tool start
+14:114  0:033  Custom tool end
+14:147  0:033  found tool \EFI\CLOVER\tools\Shell64U.efi
+14:180  0:033  Checking EFI partition Volume 1 for Clover
+14:213  0:033   Found Clover
+14:247  0:033  Checking EFI partition Volume 5 for Clover
+14:288  0:041  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+14:355  0:066  EfiBootVolume not found
+14:388  0:033  Default boot entry not found
+14:459  0:071  DefaultIndex=-1 and MainMenu.EntryCount=10
+14:525  0:065  GUI ready
+0:100  0:100  MemLog inited, TSC freq: 4008566170
+0:100  0:000  MemLog was calibrated without ACPI PM Timer: ACPI I/O space is not enabled.
+0:100  0:000  
+0:100  0:000  Now is 9.11.2015,  4:21:52 (GMT+2047)
+0:100  0:000  Starting Clover rev 3320 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000) @35B8A318
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3320  running on P7xxDM(-G) 
+0:100  0:000  ... with board P7xxDM(-G) 
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+0:100  0:000  MSR 0xE2 before patch 1E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00031814
+0:100  0:000  MSR 0xCE              00080838_F1012800
+0:100  0:000  non-usable FLEX_RATIO = F0000
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x5E/0x3
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 40.0/8
+0:100  0:000  Turbo: 40/40/40/42
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 4000 MHz
+0:100  0:000  TSC: 4000 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 1617 class=030000
+0:100  0:000  Found NVidia model=Unknown
+0:100  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 A131 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 A102 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 A110 class=060400
+0:100  0:000  PCI (00|00:1C.06) : 8086 A116 class=060400
+0:100  0:000  PCI (00|3B:00.00) : 1969 E0A1 class=020000
+0:100  0:000  LAN 0, Vendor=1969, MMIO=DC500000
+0:100  0:000  PCI (00|00:1C.07) : 8086 A117 class=060400
+0:100  0:000  PCI (00|3C:00.00) : 10EC 5250 class=080501
+0:100  0:000  PCI (00|00:1D.00) : 8086 A11C class=060400
+0:100  0:000  PCI (00|3D:00.00) : 168C 003E class=028000
+0:100  0:000  PCI (00|00:1F.00) : 8086 A145 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:100  0:000  Clover load options size = 0 bytes
+0:117  0:017  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:117  0:000  EFI\CLOVER\config.plist loaded: Success
+0:122  0:004  Found theme directory: embedded
+0:122  0:000  Found theme directory: random
+0:126  0:004  Loading early settings
+0:126  0:000  timeout set to 5
+0:126  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:202  0:075  KextsToPatch: 1 requested
+0:240  0:038  KextsToPatch 0: AppleAPIC (Skylake AppleAPIC Patch (c) Pike R. Alpha) Kext bin patch, data len: 6
+0:378  0:138  Default theme: embedded
+0:411  0:033  LoadDrivers() start
+0:450  0:038  Loading FSInject-64.efi  status=Success
+0:585  0:135  Loading OsxAptioFixDrv-64.efi  status=Success
+0:698  0:112  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:803  0:104  Loading HFSPlus.efi  status=Success
+0:949  0:146   - driver needs connecting
+1:004  0:054  1 drivers needs connecting ...
+1:036  0:032  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:102  0:066  HFS+ driver loaded 
+1:135  0:033  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:463  0:327  LoadDrivers() end
+1:495  0:031  Dump SMC keys from NVRAM:
+1:540  0:045  SetScreenResolution: 1280x1024 - setting Mode 6
+1:619  0:078  Video mode change to mode #6: Success
+1:678  0:058  Console modes reported: 4, available modes:
+1:711  0:033    Mode 1: 80x25
+1:744  0:033    Mode 2: 80x25
+1:793  0:048    Mode 3: 100x31 (current mode)
+1:826  0:033    Mode 4: 480x113
+1:859  0:033  SetScreenResolution: 1280x1024 - already set
+1:926  0:066  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+1:959  0:033  MAC address of LAN #0= 80:FA:5B:21:59:35:
+2:241  0:281  ScanSPD() start
+2:274  0:033  SMBus CmdReg: 0x3
+2:325  0:050  Scanning SMBus [8086:A123], mmio: 0xDA12A004, ioport: 0xF000, hostc: 0x11
+2:358  0:033  Slots to scan [8]...
+2:441  0:083  SPD[1]: Type 0 @0x51 
+2:495  0:053  SPD[3]: Type 0 @0x53 
+2:552  0:057  ScanSPD() end
+2:619  0:066  Get Acpi Tables List from RSDT:
+2:685  0:066   Found table: FACP  A M I  len=132
+2:718  0:033   Found table: APIC  A M I  len=188
+2:751  0:033   Found table: FPDT  A M I  len=68
+2:785  0:033   Found table: FIDT  A M I  len=156
+2:818  0:033   Found table: MCFG  A M I len=60
+2:868  0:050   Found table: HPET  A M I len=56
+2:923  0:054   Found table: SSDT  SataTabl len=877
+2:956  0:033   Found table: SSDT  NvdTabl len=11582
+2:989  0:033   Found table: DBGP   len=52
+3:022  0:033   Found table: DBG2   len=84
+3:055  0:033   Found table: SSDT  SaSsdt  len=5645
+3:089  0:033   Found table: UEFI   len=66
+3:130  0:041   Found table: SSDT  CpuSsdt len=3672
+3:163  0:033   Found table: DMAR  SKL  len=112
+3:196  0:033   Found table: TPM2  Tpm2Tabl len=52
+3:247  0:050   Found table: ASF!   HCG len=165
+3:301  0:054   Found table: BGRT  A M I len=56
+3:335  0:033  Calibrated TSC frequency =4008566170 =4008MHz
+3:368  0:033  Loading main settings
+3:401  0:033  USB FixOwnership: true
+3:434  0:033  Dropping 3 tables
+3:467  0:033  Drop table 0 signature="DMAR" (52414D44)
+3:741  0:273  set table: 52414D44,                0 to drop:  true
+3:823  0:081  
+3:856  0:033  Drop table 1 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+4:467  0:611  set table: 54445353,   74734930757043 to drop:
+4:551  0:083  Drop table 2 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+5:093  0:542  set table: 54445353,       6D50757043 to drop:
+5:166  0:072  Config set Fixes will override FixMask mask!
+5:211  0:045     final mask=88408011
+5:244  0:033  Config set ChassisType=0xD
+5:277  0:033  found 11 volumes with blockIO
+5:310  0:033   0. Volume:
+5:344  0:033    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)
+5:380  0:036    USB volume
+5:411  0:030   1. Volume:
+5:462  0:050    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,934B8BBF-BF28-421C-BDC3-F44310A5562A,0x28,0x64000)
+5:499  0:036    Result of bootcode detection: bootable unknown (legacy)
+5:530  0:031    USB volume
+5:584  0:054    This is SelfVolume !!
+5:617  0:033   2. Volume:
+5:659  0:042    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(2,GPT,24FBC3E9-3074-4140-A828-5E72EFD9F420,0x64028,0x1DC14B0)
+5:695  0:035    USB volume
+5:727  0:032   3. Volume:
+5:760  0:033    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(3,GPT,547F1672-8C05-4F37-8522-8BFA246C3963,0x1E654D8,0x1D62300)
+5:814  0:053    USB volume
+5:846  0:032   4. Volume:
+5:879  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+5:912  0:033    Result of bootcode detection: bootable Linux (grub,linux)
+5:946  0:033   5. Volume:
+6:000  0:054    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,BD7BEB52-D22B-45CB-928B-46E7B920ADF4,0x800,0x38800)
+6:056  0:055    Result of bootcode detection: bootable unknown (legacy)
+6:107  0:050   6. Volume:
+6:140  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,70A995FA-4184-4BAD-A060-F71F430EF732,0x39000,0x38762000)
+6:174  0:033   7. Volume:
+6:207  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,603944CB-BD0B-4E33-BD62-6547015A6CA1,0x3879B000,0x3B9B000)
+6:241  0:033   8. Volume:
+6:274  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(4,GPT,74D39A25-6FB1-4C85-BAE9-C4AF4A4945B5,0x3C336000,0x8000)
+6:323  0:049   9. Volume:
+6:356  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(5,GPT,9F058A07-483C-4DA9-9A4D-982EE0336F24,0x3C33E000,0x30E98800)
+6:437  0:080    Result of bootcode detection: bootable Windows (vista,win)
+6:470  0:033  10. Volume:
+6:504  0:033    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(6,GPT,8F9F7A56-C842-4BB5-BD27-34B4993A5E79,0x6D1D6800,0x7530000)
+6:538  0:033   using embedded theme
+6:571  0:033  Choosing theme <null string>
+6:604  0:033  Custom entries start
+6:637  0:033  Custom entries finish
+6:688  0:050  Scanning loaders...
+6:721  0:033   0: 'Whole Disc Boot' no file system
+6:803  0:082   1: 'EFI'
+6:881  0:078   2: 'Install OS X El Capitan'
+6:949  0:068      AddLoaderEntry for Volume Name=Install OS X El Capitan
+6:988  0:038   3: 'Untitled'
+7:065  0:076   4: 'Whole Disc Boot' no file system
+7:129  0:064   5: 'EFI'
+7:260  0:130      AddLoaderEntry for Volume Name=EFI
+7:294  0:033      AddLoaderEntry for Volume Name=EFI
+7:327  0:033   6: 'Legacy HD2' no file system
+7:394  0:066   7: 'Legacy HD3' no file system
+7:478  0:083   8: 'Legacy HD4' no file system
+7:544  0:066   9: ''
+7:632  0:087  10: 'untitled'
+7:707  0:075  Custom legacy start
+7:740  0:033  Custom legacy end
+7:773  0:033  Scanning legacy ...
+7:806  0:033   0: 'Whole Disc Boot' (legacy) not legacy
+7:873  0:066   1: 'EFI' (legacy) not legacy
+7:939  0:066   2: 'Install OS X El Capitan' (legacy) not legacy
+8:021  0:082   3: 'Untitled' (legacy) not legacy
+8:087  0:066   4: 'Whole Disc Boot' (grub,linux) hidden
+8:154  0:066   5: 'EFI' (legacy) not legacy
+8:238  0:084   6: 'Legacy HD2' (legacy) not legacy
+8:325  0:087   7: 'Legacy HD3' (legacy) not legacy
+8:407  0:081   8: 'Legacy HD4' (legacy) not legacy
+8:473  0:066   9: '' (vista,win) add legacy
+8:540  0:066   added 'Boot Windows from ' OSType=2 Icon=vista,win
+8:573  0:033  10: 'untitled' (legacy) not legacy
+8:639  0:066  Custom tool start
+8:672  0:033  Custom tool end
+8:705  0:033  found tool \EFI\CLOVER\tools\Shell64U.efi
+8:747  0:041  Checking EFI partition Volume 1 for Clover
+8:798  0:050   Found Clover
+8:831  0:033  Checking EFI partition Volume 5 for Clover
+8:864  0:033  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+8:953  0:088  EfiBootVolume not found
+8:986  0:033  Default boot entry not found
+9:019  0:033  DefaultIndex=-1 and MainMenu.EntryCount=10
+9:061  0:042  GUI ready
+11:323  2:261  Boot option Boot0000 not found
+11:356  0:033  StartLoader() start
+11:405  0:048  Entry->Settings: <null string>
+11:438  0:033  Finally: Bus=100214kHz CPU=4009MHz
+11:499  0:060  Kernel and Kext Patches at 30D070F0:
+11:532  0:033  	Allowed: y
+11:565  0:033  	Debug: n
+11:599  0:033  	KernelCpu: n
+11:632  0:033  	Lapic: n
+11:665  0:033  	Haswell-E: y
+11:698  0:033  	AICPUPM: n
+11:731  0:033  	AppleRTC: n
+11:780  0:048  	KernelPm: y
+11:821  0:041  	FakeCPUID: 0x0
+11:855  0:033  	ATIController: null
+11:888  0:033  	ATIDataLength: 0
+11:921  0:033  	0 Kexts to load
+11:954  0:033  	1 Kexts to patch
+11:987  0:033  	  KextPatch[0]: 6 bytes, AppleAPIC
+12:038  0:050  Loading boot.efi  status=Success
+12:202  0:164  GetOSVersion: : 10.11
+12:269  0:066  insert table 9 for dev 0:0
+12:302  0:033  insert table 9 for dev 0:1
+12:336  0:033  insert table 9 for dev 0:0
+12:369  0:033  insert table 9 for dev 0:0
+12:402  0:033  Trusting SMBIOS...
+12:436  0:033  Detected alternating SMBIOS channel banks
+12:469  0:033  Channels: 2
+12:510  0:041  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+13:458  0:947  SMBIOS Type 17 Index = 0 => 0 0:
+13:509  0:050  BANK0 DIMM0 EMPTY
+13:542  0:033   partNum=HMA41GS6AFR8N-TF    
+13:575  0:033  SMBIOS Type 17 Index = 1 => 1 2:
+13:608  0:033  BANK1 DIMM0 2133MHz 8192MB
+13:641  0:033  mTotalSystemMemory = 8192
+13:675  0:033  SMBIOS Type 17 Index = 2 => 2 1:
+13:708  0:033  BANK0 DIMM1 EMPTY
+13:770  0:062   partNum=HMA41GS6AFR8N-TF    
+13:803  0:033  SMBIOS Type 17 Index = 3 => 3 3:
+13:836  0:033  BANK1 DIMM1 2133MHz 8192MB
+13:869  0:033  mTotalSystemMemory = 16384
+13:903  0:033  NumberOfMemoryDevices = 4
+13:953  0:050  Type20[0]->End = 0x7FFFFF, Type17[1] = 0x2000
+13:986  0:033  Type20[1]->End = 0xFFFFFF, Type17[3] = 0x6000
+14:020  0:033  Table 131 is present, CPUType=31
+14:053  0:033  Change to: 706
+14:086  0:033  RSDT 0x37B65028
+14:140  0:054  FADT from RSDT: 0x37B65150
+14:173  0:033  XSDT 0x37B65098
+14:206  0:033  FADT from XSDT: 0x37B80118
+14:239  0:033  Xsdt reallocation done
+14:273  0:033  old FADT length=10C
+14:306  0:033  Found OperationRegion(GNVS, SystemMemory, 37B9B000, ...)
+14:357  0:050  Found OperationRegion(CPSB, SystemMemory, 374F1F18, ...)
+14:406  0:049  Found OperationRegion(PNVA, SystemMemory, 37B9CC98, ...)
+14:440  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:473  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:522  0:048  Found OperationRegion(PDW1, SystemMemory, 0, ...)
+14:555  0:033  Found OperationRegion(PDW1, SystemMemory, 0, ...)
+14:588  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:621  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:672  0:050  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:705  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:738  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:771  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:805  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:838  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+14:887  0:048  Found OperationRegion(PREG, SystemMemory, 0, ...)
+14:920  0:033  Found OperationRegion(PREG, SystemMemory, 0, ...)
+14:971  0:050  Found OperationRegion(PREG, SystemMemory, 0, ...)
+15:004  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+15:053  0:048  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+15:086  0:033  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+15:119  0:033  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+15:152  0:033  Found OperationRegion(GPPX, SystemMemory, 0, ...)
+15:185  0:033  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+15:237  0:051  Found OperationRegion(PDW0, SystemMemory, 0, ...)
+15:286  0:048  Found OperationRegion(THBA, SystemMemory, FE200000, ...)
+15:319  0:033  Found OperationRegion(THBA, SystemMemory, 0, ...)
+15:352  0:033  Found OperationRegion(PWMR, SystemMemory, 0, ...)
+15:385  0:033  Found OperationRegion(PMST, SystemMemory, 0, ...)
+15:418  0:033  Found OperationRegion(PCR0, SystemMemory, 0, ...)
+15:451  0:033  Found OperationRegion(PCR0, SystemMemory, 0, ...)
+15:485  0:033  Found OperationRegion(PCR1, SystemMemory, 0, ...)
+15:536  0:050  Found OperationRegion(XHCP, SystemMemory, 0, ...)
+15:569  0:033  Found OperationRegion(MC11, SystemMemory, 0, ...)
+15:602  0:033  Found OperationRegion(MC11, SystemMemory, 0, ...)
+15:651  0:048  Found OperationRegion(XDBW, SystemMemory, 0, ...)
+15:684  0:033  Found OperationRegion(XDBD, SystemMemory, 0, ...)
+15:725  0:041  Found OperationRegion(XDW2, SystemMemory, 0, ...)
+15:758  0:033  Found OperationRegion(HDAM, SystemMemory, 0, ...)
+15:792  0:033  Found OperationRegion(RPAL, SystemMemory, 0, ...)
+15:843  0:050  Found OperationRegion(EPAC, SystemMemory, 0, ...)
+15:876  0:033  Found OperationRegion(NCRG, SystemMemory, 0, ...)
+15:909  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+15:942  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+15:975  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+16:008  0:033  Found OperationRegion(ICB1, SystemMemory, 0, ...)
+16:062  0:054  Found OperationRegion(BAR0, SystemMemory, 0, ...)
+16:095  0:033  Found OperationRegion(BAR0, SystemMemory, 0, ...)
+16:146  0:050  Found OperationRegion(BAR1, SystemMemory, 0, ...)
+16:179  0:033  Found OperationRegion(BAR1, SystemMemory, 0, ...)
+16:213  0:033  Found OperationRegion(MMMM, SystemMemory, 0, ...)
+16:246  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:279  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:312  0:033  Found OperationRegion(ITSS, SystemMemory, FDC43100, ...)
+16:361  0:048  Found OperationRegion(MBAR, SystemMemory, 0, ...)
+16:428  0:066  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:461  0:033  Found OperationRegion(ABCD, SystemMemory, 0, ...)
+16:494  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:527  0:033  Found OperationRegion(MMMM, SystemMemory, 0, ...)
+16:560  0:033  Found OperationRegion(MMMS, SystemMemory, 0, ...)
+16:594  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:627  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:660  0:033  Found OperationRegion(PXVD, SystemMemory, 0, ...)
+16:711  0:050  Found OperationRegion(RP_X, SystemMemory, 0, ...)
+16:744  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+16:777  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+16:826  0:048  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+16:859  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+16:892  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+16:925  0:033  Found OperationRegion(PCI0, SystemMemory, 0, ...)
+16:958  0:033  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+17:025  0:066  Found OperationRegion(CRBD, SystemMemory, FED40000, ...)
+17:058  0:033  Found OperationRegion(TPMR, SystemMemory, FFFFFFFF, ...)
+17:091  0:033  Found OperationRegion(RH2M, SystemMemory, 0, ...)
+17:124  0:033  Found OperationRegion(WH2M, SystemMemory, 0, ...)
+17:157  0:033  Found OperationRegion(RAM_, SystemMemory, FF700100, ...)
+17:206  0:048  Found OperationRegion(RAM2, SystemMemory, FF70F100, ...)
+17:239  0:033  Apply DsdtFixMask=0x88408011 new way
+17:290  0:050     drop _DSM mask=0x0088
+17:323  0:033  ========= Auto patch DSDT Starting ========
+17:356  0:033  VideoCard devID=0x161710DE
+17:390  0:033  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+17:423  0:033  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+17:456  0:033  Found Airport Atheros at 0x1D0000, 0x0, DeviceID=0x003E
+17:503  0:046  first CPU found at 6DBD offset 6DC0
+17:536  0:033  score candidate at 6DB9
+17:585  0:048  score inserted in acpi_cpu_score _PR_
+17:618  0:033  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+17:995  0:377  Found PCIROOTUID = 0
+18:028  0:033  Start HPET Fix
+18:062  0:033  patch HDEF in DSDT 
+18:095  0:033  Start HDA Fix
+18:129  0:033  found HDA device NAME(_ADR,0x001F0003) And Name is HDAS
+18:162  0:033  Name HDAS present at 0x83D8, renaming to HDEF
+18:195  0:033  Name HDAS present at 0x9DCB, renaming to HDEF
+18:228  0:033  Name HDAS present at 0x9F3D, renaming to HDEF
+18:279  0:050  Name HDAS present at 0x9F4E, renaming to HDEF
+18:323  0:044  Name HDAS present at 0x9FF3, renaming to HDEF
+18:356  0:033  Name HDAS present at 0xA061, renaming to HDEF
+18:401  0:044  _DSM in HDA already exists, dropped
+18:434  0:033  Start HDMI131 Fix
+18:468  0:033  have no HDMI device while HDMIADR2=1
+18:501  0:033  HDMIADR1=10000 HDMIADR2=1
+18:534  0:033    with default properties
+18:567  0:033   deleting device CRT_
+18:601  0:033   deleting device DVI_
+18:634  0:033   deleting device SPKR
+18:685  0:051   deleting device ECP_
+18:719  0:033   deleting device LPT_
+18:764  0:044   deleting device FDC0
+18:797  0:033   deleting device ECP1
+18:830  0:033   deleting device LPT1
+18:864  0:033  ========= Auto patch DSDT Finished ========
+18:897  0:033  Drop tables from Xsdt, SIGN=DMAR TableID=SKL  Length=112
+18:930  0:033   Xsdt has tables count=17 
+18:967  0:036   Table: DMAR  SKL   112 dropped
+19:000  0:033  corrected XSDT length=164
+19:033  0:033  Patch table: SSDT  SataTabl
+19:067  0:033   SSDT len = 0x36D
+19:134  0:067  Patch table: SSDT  NvdTabl
+19:167  0:033   SSDT len = 0x2D3E
+19:200  0:033  Patch table: SSDT  SaSsdt 
+19:233  0:033   SSDT len = 0x160D
+19:267  0:033  Patch table: SSDT  CpuSsdt
+19:300  0:033   SSDT len = 0xE58
+19:333  0:033  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+19:366  0:033   Xsdt has tables count=16 
+19:399  0:033  corrected XSDT length=164
+19:432  0:033   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=1
+19:466  0:033  Maximum control=0x28
+19:520  0:054  Turbo control=0x2A
+19:553  0:033  P-States: min 0x8, max 0x2A
+19:598  0:044  SSDT with CPU P-States generated successfully
+19:631  0:033  SSDT with CPU C-States generated successfully
+19:664  0:033  NVidia GFX injection not set
+19:697  0:033  USB Controller [8086:A12F] :: PciRoot(0x0)\Pci(0x14,0x0)
+19:730  0:033  LAN Controller [1969:E0A1] :: PciRoot(0x0)\Pci(0x1C,0x6)\Pci(0x0,0x0)
+19:764  0:033  HDA Controller [8086:A170] :: PciRoot(0x0)\Pci(0x1F,0x3) => codec not detected
+19:843  0:079  stringlength = 1064
+19:910  0:067  CurrentMode: Width=1280 Height=1024
+19:944  0:033  Beginning FSInjection
+19:984  0:040  MSR 0x1B0   set to        00000000
+20:017  0:033  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+20:050  0:033    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+20:098  0:047    Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext
+20:149  0:051      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+20:210  0:060      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+20:248  0:038      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+20:317  0:068  Custom boot screen not used because entry has unset use graphics
+20:358  0:040  Closing log
