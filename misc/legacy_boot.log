@@ -1,0 +1,227 @@
+0:100  0:100  MemLog inited, TSC freq: 4008540250
+0:100  0:000  MemLog was calibrated without ACPI PM Timer: ACPI I/O space is not enabled.
+0:100  0:000  
+0:100  0:000  Now is 6.3.2016,  19:24:58 (GMT+2047)
+0:100  0:000  Starting Clover rev 3355 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,FE7C2B62-4EA8-4F1A-9682-FF5741047A87,0x28,0x64000) @35A2D518
+0:100  0:000  SelfDirPath = \EFI\MICROSOFT\BOOT
+0:101  0:001  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  Ignoring insane frequency value 0MHz
+0:101  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:101  0:000  SmbiosTable.Type17->Size = 0MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:101  0:000  Type 17 Index = 2
+0:101  0:000  Ignoring insane frequency value 0MHz
+0:101  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:101  0:000  SmbiosTable.Type17->Size = 0MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  Type 17 Index = 3
+0:101  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:101  0:000  Boot status=0
+0:101  0:000  Clover revision: 3355  running on P7xxDM(-G) 
+0:101  0:000  ... with board P7xxDM(-G) 
+0:101  0:000  CPU Vendor = 756E6547 Model=506E3
+0:101  0:000  The CPU supported turbo
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+0:101  0:000  MSR 0xE2 before patch 1E008006
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xE4              00031814
+0:101  0:000  MSR 0xCE              00080838_F1012800
+0:101  0:000  non-usable FLEX_RATIO = F0000
+0:101  0:000  corrected FLEX_RATIO = E0000
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:101  0:000  Corrected FSBFrequency=100MHz
+0:101  0:000  Vendor/Model/Stepping: 0x756E6547/0x5E/0x3
+0:101  0:000  Family/ExtFamily: 0x6/0x0
+0:101  0:000  MaxDiv/MinDiv: 40.0/8
+0:101  0:000  Turbo: 40/40/40/42
+0:101  0:000  Features: 0xBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 4000 MHz
+0:101  0:000  TSC: 4000 MHz
+0:101  0:000  PIS: 400 MHz
+0:101  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:101  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1617 class=030000
+0:101  0:000  Found NVidia model=Unknown
+0:101  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:101  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:101  0:000  PCI (00|00:14.02) : 8086 A131 class=118000
+0:101  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:101  0:000  PCI (00|00:17.00) : 8086 A102 class=010601
+0:101  0:000  PCI (00|00:1C.00) : 8086 A110 class=060400
+0:101  0:000  PCI (00|00:1C.06) : 8086 A116 class=060400
+0:101  0:000  PCI (00|3B:00.00) : 1969 E0A1 class=020000
+0:101  0:000  LAN 0, Vendor=1969, MMIO=DC700000
+0:101  0:000  PCI (00|00:1C.07) : 8086 A117 class=060400
+0:101  0:000  PCI (00|3C:00.00) : 10EC 5250 class=080501
+0:101  0:000  PCI (00|00:1D.00) : 8086 A11C class=060400
+0:101  0:000  PCI (00|3D:00.00) : 14E4 43B1 class=028000
+0:101  0:000  PCI (00|00:1F.00) : 8086 A145 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:101  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:101  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:101  0:000  Clover load options size = 136 bytes
+0:101  0:000  Found Plist String = , parse XML in LoadOptions
+0:101  0:000  Xml in load options is bad
+0:104  0:002  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:104  0:000  EFI\CLOVER\config.plist loaded: Success
+0:105  0:001  Found theme directory: embedded
+0:105  0:000  Found theme directory: random
+0:106  0:000  Loading early settings
+0:106  0:000  timeout set to 0
+0:106  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:106  0:000  KextsToPatch: 6 requested
+0:106  0:000  KextsToPatch 0: AppleHDA (t1-10.9-10.11-AppleHDA/Realtek ALC892) Kext bin patch, data len: 4
+0:106  0:000  KextsToPatch 1: AppleHDA (t1-10.11-AppleHDA/Realtek ALC...) Kext bin patch, data len: 4
+0:106  0:000  KextsToPatch 2: AppleGraphicsDevicePolicy (AppleGraphicsDevicePolicy (board-id) Patch © Pike R. Alpha)patch disabled, skipped
+0:106  0:000  KextsToPatch 3: AppleAPIC (Skylake AppleAPIC Patch (c) Pike R. Alpha) Kext bin patch, data len: 6
+0:106  0:000  KextsToPatch 4: AppleUSBXHCIPCI (remove usb limit by arix98) Kext bin patch, data len: 7
+0:106  0:000  KextsToPatch 5: AppleHDA (t1-AppleHDA/Resources/xml>zml) Kext bin patch, data len: 6
+0:106  0:000  Default theme: embedded
+0:106  0:000  LoadDrivers() start
+0:106  0:000  Loading FSInject-64.efi  status=Success
+0:121  0:015  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:126  0:004  Loading OsxAptioFixDrv-64.efi  status=Success
+0:132  0:006  Loading HFSPlus.efi  status=Success
+0:138  0:006   - driver needs connecting
+0:138  0:000  Loading NTFS.efi  status=Success
+0:144  0:006   - driver needs connecting
+0:144  0:000  2 drivers needs connecting ...
+0:144  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:144  0:000  HFS+ driver loaded 
+0:144  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:264  0:119  LoadDrivers() end
+0:264  0:000  Dump SMC keys from NVRAM:
+0:287  0:022  SetScreenResolution: 1280x800 - setting Mode 5
+0:289  0:002  Video mode change to mode #5: Success
+0:289  0:000  Console modes reported: 4, available modes:
+0:289  0:000    Mode 1: 80x25 (current mode)
+0:289  0:000    Mode 2: 80x25
+0:289  0:000    Mode 3: 100x31
+0:289  0:000    Mode 4: 480x113
+0:289  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,FE7C2B62-4EA8-4F1A-9682-FF5741047A87,0x28,0x64000)
+0:289  0:000  MAC address of LAN #0= 80:FA:5B:21:59:35:
+0:289  0:000  ScanSPD() start
+0:290  0:000  SMBus CmdReg: 0x3
+0:290  0:000  Scanning SMBus [8086:A123], mmio: 0xDA12A004, ioport: 0xF000, hostc: 0x11
+0:290  0:000  Slots to scan [8]...
+0:310  0:019  SPD[1]: Type 0 @0x51 
+0:330  0:019  SPD[3]: Type 0 @0x53 
+0:358  0:028  ScanSPD() end
+0:402  0:043  Get Acpi Tables List from RSDT:
+0:402  0:000   Found table: FACP  A M I  len=132
+0:402  0:000   Found table: APIC  A M I  len=188
+0:402  0:000   Found table: FPDT  A M I  len=68
+0:402  0:000   Found table: FIDT  A M I  len=156
+0:402  0:000   Found table: MCFG  A M I len=60
+0:402  0:000   Found table: HPET  A M I len=56
+0:402  0:000   Found table: SSDT  SataTabl len=877
+0:402  0:000   Found table: SSDT  NvdTabl len=11582
+0:402  0:000   Found table: DBGP   len=52
+0:402  0:000   Found table: DBG2   len=84
+0:402  0:000   Found table: SSDT  SaSsdt  len=5645
+0:402  0:000   Found table: UEFI   len=66
+0:402  0:000   Found table: SSDT  CpuSsdt len=3672
+0:402  0:000   Found table: DMAR  SKL  len=112
+0:402  0:000   Found table: TPM2  Tpm2Tabl len=52
+0:402  0:000   Found table: ASF!   HCG len=165
+0:402  0:000   Found table: BGRT  A M I len=56
+0:402  0:000  Calibrated TSC frequency =4008540250 =4008MHz
+0:402  0:000  Loading main settings
+0:402  0:000  Dropping 1 tables
+0:402  0:000  Drop table 0 signature="DMAR" (52414D44)
+0:402  0:000  set table: 52414D44,                0 to drop:  true
+0:402  0:000  
+0:402  0:000  Config set Fixes will override FixMask mask!
+0:402  0:000     final mask=90000000
+0:402  0:000  Config set ChassisType=0xD
+0:402  0:000  found 6 volumes with blockIO
+0:402  0:000   0. Volume:
+0:402  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+0:403  0:000   1. Volume:
+0:403  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,FE7C2B62-4EA8-4F1A-9682-FF5741047A87,0x28,0x64000)
+0:403  0:000    Result of bootcode detection: bootable unknown (legacy)
+0:403  0:000    This is SelfVolume !!
+0:403  0:000   2. Volume:
+0:403  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F8C37B59-4C53-4E8F-9AA8-2FCE0A8145C2,0x64028,0x3A1CB970)
+0:404  0:000   3. Volume:
+0:404  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,2C14795D-24D3-4FAD-BCEC-1DE8EFAED50F,0x3A22F998,0x135F20)
+0:405  0:000   4. Volume:
+0:405  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(4,GPT,098DB7F6-EDB1-44D2-A123-115A7FC4D9E2,0x3A366000,0x8000)
+0:405  0:000   5. Volume:
+0:405  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(5,GPT,C373EDAF-CF17-4136-98C8-31226EB44CB5,0x3A36E000,0x3A398800)
+0:406  0:000    Result of bootcode detection: bootable Windows (vista,win)
+0:406  0:000   using embedded theme
+0:406  0:000  Choosing theme <null string>
+0:406  0:000  Custom entries start
+0:406  0:000  Custom entries finish
+0:406  0:000  Scanning loaders...
+0:406  0:000   0: 'Whole Disc Boot' no file system
+0:406  0:000   1: 'EFI'
+0:407  0:001      AddLoaderEntry for Volume Name=EFI
+0:407  0:000       skipped because path `PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,FE7C2B62-4EA8-4F1A-9682-FF5741047A87,0x28,0x64000)\EFI\microsoft\Boot\bootmgfw.efi` is self path!
+0:407  0:000   2: 'LittleOne'
+0:410  0:002      AddLoaderEntry for Volume Name=LittleOne
+0:413  0:003      Check if volume Is Hibernated:
+0:413  0:000      Check sleep image 'by signature':
+0:415  0:002      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+0:415  0:000      using default sleep image name = \private\var\vm\sleepimage
+0:418  0:002      Reading first 512 bytes of sleepimage ...
+0:418  0:000   OurBlockIoRead: Lba=21641F8, Offset=42C83F000 (BlockSize=512)
+0:418  0:000   sig lion: 73696D65
+0:418  0:000   sig snow: 0
+0:418  0:000   got sleep image offset
+0:418  0:000      Reading completed -> Success
+0:418  0:000       sleepimage offset acquired successfully: 42C83F000
+0:418  0:000       gSleepTime: 1456491417
+0:419  0:000       HFS+ volume modifyDate: 1457292276
+0:419  0:000       image older then volume: 800859 sec
+0:419  0:000       image too old
+0:419  0:000       hibernated: no - time
+0:420  0:000   3: 'Recovery HD'
+0:420  0:000      AddLoaderEntry for Volume Name=Recovery HD
+0:422  0:001   4: 'Legacy HD4' no file system
+0:422  0:000   5: ''
+0:422  0:000  Custom legacy start
+0:422  0:000  Custom legacy end
+0:422  0:000  Scanning legacy ...
+0:422  0:000   0: 'Whole Disc Boot' (legacy) not legacy
+0:422  0:000   1: 'EFI' (legacy) not legacy
+0:422  0:000   2: 'LittleOne' (legacy) not legacy
+0:422  0:000   3: 'Recovery HD' (legacy) not legacy
+0:422  0:000   4: 'Legacy HD4' (legacy) not legacy
+0:422  0:000   5: '' (vista,win) add legacy
+0:422  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+0:422  0:000  Custom tool start
+0:422  0:000  Custom tool end
+0:422  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:422  0:000  Checking EFI partition Volume 1 for Clover
+0:422  0:000   Found Clover
+0:422  0:000  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+0:423  0:000  EfiBootVolume not found
+0:423  0:000   found entry 0. 'Boot Mac OS X from LittleOne', Volume 'LittleOne', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F8C37B59-4C53-4E8F-9AA8-2FCE0A8145C2,0x64028,0x3A1CB970)\System\Library\CoreServices\boot.efi'
+0:423  0:000  DefaultIndex=0 and MainMenu.EntryCount=9
+0:450  0:027  Found Mouse device:
+0:450  0:000  GUI ready
+4:657  4:206  BootOption of the entry is empty
+4:659  0:001  Removed efi-boot-device-data variable: Not Found
+4:660  0:001  boot from partition HD(5,GPT,C373EDAF-CF17-4136-98C8-31226EB44CB5,0x3A36E000,0x3A398800)
+4:660  0:000  starting from 0x3A36E000 LBA 
+4:660  0:000  gEfiLegacy8259ProtocolGuid found
+4:661  0:000  PBR after readDisk:
+4:661  0:000  0000: EB 52 90 4E 54 46 53 20 20 20 20 00 02 08 00 00 
+4:661  0:000  0010: 00 00 00 00 00 F8 00 00 3F 00 FF 00 00 E0 36 3A 
+4:661  0:000  0020: 00 00 00 00 80 00 80 00 FF 87 39 3A 00 00 00 00 
+4:661  0:000  0030: 00 00 0C 00 00 00 00 00 02 00 00 00 00 00 00 00 
+4:661  0:000  Reset disk controller 0x80
