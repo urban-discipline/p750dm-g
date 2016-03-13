@@ -143,22 +143,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>t1-AppleHDA/Resources/xml&gt;zml</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				eG1sLnps
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				em1sLnps
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Skylake AppleAPIC Patch (c) Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
@@ -175,22 +159,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>t1-10.9-10.11-AppleHDA/Realtek ALC892</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				ixnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				kgjsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>AppleGraphicsDevicePolicy (board-id) Patch © Pike R. Alpha</string>
 				<key>Disabled</key>
 				<true/>
@@ -203,22 +171,6 @@
 				<key>Replace</key>
 				<data>
 				Ym9hcmQtaXg=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>t1-10.11-AppleHDA/Realtek ALC...</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				gxnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
 				</data>
 			</dict>
 		</array>
